@@ -13,7 +13,7 @@ public class Student {
     private String name;
     private String surname;
     private int albumNumber;
-    private String field;
+    private String faculty;
     private ArrayList<Course> courses;
 
     public Student (){};
@@ -22,7 +22,7 @@ public class Student {
         this.name = name;
         this.surname = surname;
         this.albumNumber = albumNumber;
-        this.field = field;
+        this.faculty = field;
         this.courses = new ArrayList<>();
     }
 
@@ -34,8 +34,8 @@ public class Student {
         return surname;
     }
 
-    public String getField() {
-        return field;
+    public String getFaculty() {
+        return faculty;
     }
 
     public int getAlbumNumber(){
@@ -62,7 +62,7 @@ public class Student {
         return albumNumber == student.albumNumber &&
                 name.equals(student.name) &&
                 surname.equals(student.surname) &&
-                field.equals(student.field);
+                faculty.equals(student.faculty);
     }
 
 }

@@ -4,6 +4,7 @@ import pl.edu.agh.soa.soap.models.Student;
 
 import javax.jws.WebParam;
 import javax.jws.WebService;
+import java.util.Collection;
 
 @WebService
 public interface StudentServiceInterface {
@@ -18,4 +19,7 @@ public interface StudentServiceInterface {
                                       @WebParam(name="profesorName") String profesorName,
                                       @WebParam(name="profesorSurname") String profesorSurname,
                                       @WebParam(name="ects") int ects, @WebParam(name="hours") int hours);
+    public Collection<Student> getAllStudents();
+    public Collection<Student> getStudentsByFaculty(@WebParam(name="faculty") String faculty);
+    public Collection<Student> getStudentsByCourse(@WebParam(name="courseName") String course);
 }

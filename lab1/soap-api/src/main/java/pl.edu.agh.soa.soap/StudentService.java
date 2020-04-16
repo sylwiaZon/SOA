@@ -10,6 +10,7 @@ import javax.jws.WebMethod;
 import javax.jws.WebParam;
 import javax.jws.WebResult;
 import javax.jws.WebService;
+import java.util.Collection;
 
 @Stateless
 @WebService(name="StudentService")
@@ -39,7 +40,7 @@ public class StudentService implements StudentServiceInterface{
     @Override
     @PermitAll
     @WebMethod(operationName = "deleteStudent")
-    @WebResult(name = "returnStudent")
+    @WebResult(name = "returnResponse")
     public String deleteStudent(@WebParam(name="albumNumber") int albumNumber) {
         if(Students.getInstance().deleteStudent(albumNumber)){
             return "Student was deleted";
@@ -59,5 +60,29 @@ public class StudentService implements StudentServiceInterface{
                                       @WebParam(name="hours") int hours) {
         Students.getInstance().addCourseToStudent(albumNumber,new Course(courseName,profesorName,profesorSurname,ects,hours));
         return Students.getInstance().getStudent(albumNumber);
+    }
+
+    @Override
+    @PermitAll
+    @WebMethod(operationName = "getAllStudents")
+    @WebResult(name = "returnStudents")
+    public Collection<Student> getAllStudents() {
+        return Students.getInstance().getAllStudents().values();
+    }
+
+    @Override
+    @PermitAll
+    @WebMethod(operationName = "getStudentsByFaculty")
+    @WebResult(name = "returnStudents")
+    public Collection<Student> getStudentsByFaculty(@WebParam(name="faculty") String faculty) {
+        return Students.getInstance().getStudentsByFaculty(faculty).values();
+    }
+
+    @Override
+    @PermitAll
+    @WebMethod(operationName = "getStudentsByCourse")
+    @WebResult(name = "returnStudents")
+    public Collection<Student> getStudentsByCourse(@WebParam(name="course") String course) {
+        return Students.getInstance().getStudentsByCourse(course).values();
     }
 }
