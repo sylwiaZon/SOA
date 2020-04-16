@@ -1,0 +1,21 @@
+package pl.edu.agh.soa.soap;
+
+import pl.edu.agh.soa.soap.models.Student;
+
+import javax.jws.WebParam;
+import javax.jws.WebService;
+
+@WebService
+public interface StudentServiceInterface {
+    public Student getStudent(@WebParam(name="albumNumber") int albumNumber);
+    public Student addStudent(@WebParam(name="name") String name,
+                                @WebParam(name="surname") String surname,
+                                @WebParam(name="field") String field,
+                                @WebParam(name="albumNumber") int albumNumber);
+    public String deleteStudent(@WebParam(name="albumNumber") int albumNumber);
+    public Student addCourseToStudent(@WebParam(name="albumNumber") int albumNumber,
+                                      @WebParam(name="courseName") String courseName,
+                                      @WebParam(name="profesorName") String profesorName,
+                                      @WebParam(name="profesorSurname") String profesorSurname,
+                                      @WebParam(name="ects") int ects, @WebParam(name="hours") int hours);
+}

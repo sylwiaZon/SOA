@@ -1,1 +1,5 @@
+pl\edu\agh\soa\soap\StudentServiceInterface.class
+pl\edu\agh\soa\soap\models\Student.class
+pl\edu\agh\soa\soap\Students.class
+pl\edu\agh\soa\soap\models\Course.class
 pl\edu\agh\soa\soap\StudentService.class
