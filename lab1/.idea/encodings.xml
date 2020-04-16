@@ -3,7 +3,8 @@
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lab1-ear" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lab1-ejb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lab1-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/soap-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/soap-connector" charset="UTF-8" />
   </component>
 </project>

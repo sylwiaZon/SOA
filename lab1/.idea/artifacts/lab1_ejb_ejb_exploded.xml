@@ -9,11 +9,11 @@
       </options>
     </properties>
     <root id="root">
-      <element id="javaee-facet-resources" facet="lab1-ejb/ejb/EJB" />
+      <element id="javaee-facet-resources" facet="soap-api/ejb/EJB" />
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/lab1-ejb/target/lab1-ejb/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/soap-api/target/lab1-ejb/META-INF/MANIFEST.MF" />
       </element>
-      <element id="module-output" name="lab1-ejb" />
+      <element id="module-output" name="soap-api" />
     </root>
   </artifact>
 </component>

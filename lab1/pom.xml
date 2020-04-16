@@ -31,9 +31,10 @@
         </license>
     </licenses>
     <modules>
-        <module>lab1-ejb</module>
+        <module>soap-api</module>
         <module>lab1-web</module>
         <module>lab1-ear</module>
+        <module>soap-connector</module>
     </modules>
 
     <properties>

@@ -18,7 +18,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="lab1-web" />
-    <orderEntry type="module" module-name="lab1-ejb" />
+    <orderEntry type="module" module-name="soap-api" />
     <orderEntry type="library" name="Maven: javax.xml.bind:jaxb-api:2.2.8" level="project" />
     <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-core:2.3.0" level="project" />
     <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-impl:2.3.2" level="project" />
