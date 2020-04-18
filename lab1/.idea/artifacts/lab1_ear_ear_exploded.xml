@@ -54,6 +54,7 @@
         <element id="library" level="project" name="Maven: javax.xml.soap:javax.xml.soap-api:1.4.0" />
         <element id="library" level="project" name="Maven: javax.jws:jsr181-api:1.0-MR1" />
         <element id="library" level="project" name="Maven: org.jboss.ws:jbossws-api:1.0.1.Final" />
+        <element id="library" level="project" name="Maven: jboss:jboss-annotations-ejb3:4.2.2.GA" />
       </element>
     </root>
   </artifact>
