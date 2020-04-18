@@ -22,5 +22,5 @@ public interface StudentServiceInterface {
     public Collection<Student> getAllStudents();
     public Collection<Student> getStudentsByFaculty(@WebParam(name="faculty") String faculty);
     public Collection<Student> getStudentsByCourse(@WebParam(name="courseName") String course);
-    public String getIcon();
+    public byte[] getIcon();
 }

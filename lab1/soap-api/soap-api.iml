@@ -4,21 +4,21 @@
     <facet type="ejb" name="EJB">
       <configuration>
         <ejbRoots>
-          <root url="file://$MODULE_DIR$/../soap-api/src/main/java" />
-          <root url="file://$MODULE_DIR$/../soap-api/src/main/resources" />
+          <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
         </ejbRoots>
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
-    <output url="file://$MODULE_DIR$/../lab1-ejb/target/classes" />
-    <output-test url="file://$MODULE_DIR$/../lab1-ejb/target/test-classes" />
-    <content url="file://$MODULE_DIR$/../soap-api">
-      <sourceFolder url="file://$MODULE_DIR$/../soap-api/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../soap-api/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../soap-api/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../soap-api/src/test/resources" type="java-test-resource" />
-      <excludeFolder url="file://$MODULE_DIR$/../soap-api/target" />
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

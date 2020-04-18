@@ -87,6 +87,15 @@
                 <scope>compile</scope>
             </dependency>
 
+
+            <dependency>
+                <groupId>pl.edu.agh.soa.lab</groupId>
+                <artifactId>soap-connector</artifactId>
+                <version>${project.version}</version>
+                <type>ejb</type>
+                <scope>compile</scope>
+            </dependency>
+
             <!-- JBoss distributes a complete set of Java EE 7 APIs including
                 a Bill of Materials (BOM). A BOM specifies the versions of a "stack" (or
                 a collection) of artifacts. We use this here so that we always get the correct

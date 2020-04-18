@@ -6,7 +6,6 @@ import pl.edu.agh.soa.soap.models.Course;
 import pl.edu.agh.soa.soap.models.Student;
 
 import javax.annotation.security.DeclareRoles;
-import javax.annotation.security.PermitAll;
 import javax.annotation.security.RolesAllowed;
 import javax.ejb.Stateless;
 import javax.jws.WebMethod;
@@ -23,12 +22,12 @@ import java.util.Collection;
 @Stateless
 @WebService(name="StudentService")
 @SecurityDomain("my-security-domain")
-@DeclareRoles({"users, admins"})
+@DeclareRoles({"users"})
 @WebContext(contextRoot="/soa",urlPattern="/studentService", authMethod = "BASIC", transportGuarantee = "NONE")
 public class StudentService implements StudentServiceInterface{
 
     @Override
-    @PermitAll
+    @RolesAllowed("users")
     @WebMethod(operationName = "getStudent")
     @WebResult(name = "returnStudent")
     public Student getStudent(@WebParam(name="albumNumber") int albumNumber) {
@@ -36,7 +35,7 @@ public class StudentService implements StudentServiceInterface{
     }
 
     @Override
-    @RolesAllowed("admins")
+    @RolesAllowed("users")
     @WebMethod(operationName = "addStudent")
     @WebResult(name = "returnStudent")
     public Student addStudent(@WebParam(name="name") String name,
@@ -48,7 +47,7 @@ public class StudentService implements StudentServiceInterface{
     }
 
     @Override
-    @RolesAllowed("admins")
+    @RolesAllowed("users")
     @WebMethod(operationName = "deleteStudent")
     @WebResult(name = "returnResponse")
     public String deleteStudent(@WebParam(name="albumNumber") int albumNumber) {
@@ -59,7 +58,7 @@ public class StudentService implements StudentServiceInterface{
     }
 
     @Override
-    @RolesAllowed("admins")
+    @RolesAllowed("users")
     @WebMethod(operationName = "addCourseToStudent")
     @WebResult(name = "returnStudent")
     public Student addCourseToStudent(@WebParam(name="albumNumber") int albumNumber,
@@ -73,7 +72,7 @@ public class StudentService implements StudentServiceInterface{
     }
 
     @Override
-    @PermitAll
+    @RolesAllowed("users")
     @WebMethod(operationName = "getAllStudents")
     @WebResult(name = "returnStudents")
     public Collection<Student> getAllStudents() {
@@ -81,7 +80,7 @@ public class StudentService implements StudentServiceInterface{
     }
 
     @Override
-    @PermitAll
+    @RolesAllowed("users")
     @WebMethod(operationName = "getStudentsByFaculty")
     @WebResult(name = "returnStudents")
     public Collection<Student> getStudentsByFaculty(@WebParam(name="faculty") String faculty) {
@@ -89,7 +88,7 @@ public class StudentService implements StudentServiceInterface{
     }
 
     @Override
-    @PermitAll
+    @RolesAllowed("users")
     @WebMethod(operationName = "getStudentsByCourse")
     @WebResult(name = "returnStudents")
     public Collection<Student> getStudentsByCourse(@WebParam(name="course") String course) {
@@ -97,17 +96,17 @@ public class StudentService implements StudentServiceInterface{
     }
 
     @Override
-    @PermitAll
+    @RolesAllowed("users")
     @WebMethod(operationName = "getApplicationIcon")
     @WebResult(name = "icon")
-    public String getIcon(){
+    public byte[] getIcon(){
         File file = new File("C:/Users/Sylwia/Desktop/Studia/SOA/zad1/lab1/soap-api/src/main/java/pl.edu.agh.soa.soap/applicationIcon.png");
-        String encodedFile = null;
+        byte[] encodedFile = null;
         try {
             FileInputStream fileInputStream = new FileInputStream(file);
             byte[] bytes = new byte[(int) file.length()];
             fileInputStream.read(bytes);
-            encodedFile = Base64.getEncoder().encodeToString(bytes);
+            encodedFile = Base64.getEncoder().encode(bytes);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {

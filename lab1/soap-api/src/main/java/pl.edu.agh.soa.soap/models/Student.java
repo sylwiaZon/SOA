@@ -1,9 +1,6 @@
 package pl.edu.agh.soa.soap.models;
 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorOrder;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.Objects;
 
@@ -14,6 +11,8 @@ public class Student {
     private String surname;
     private int albumNumber;
     private String faculty;
+    @XmlElementWrapper(name="courses")
+    @XmlElement(name="course")
     private ArrayList<Course> courses;
 
     public Student (){};
