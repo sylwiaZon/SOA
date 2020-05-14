@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="soap-api" />
+        <module name="soap-connector" />
+        <module name="szon-zad1-ear" />
+        <module name="szon-zad1-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="soap-api" target="11" />
+      <module name="soap-connector" target="8" />
+      <module name="szon-zad1" target="11" />
+      <module name="szon-zad1-ear" target="11" />
+      <module name="szon-zad1-web" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

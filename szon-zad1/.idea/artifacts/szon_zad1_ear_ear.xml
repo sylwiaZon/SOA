@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="szon-zad1-ear:ear">
+    <output-path>$PROJECT_DIR$/szon-zad1-ear/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>szon-zad1-ear</module>
+        <packaging>ear</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="szon-zad1-ear.ear">
+      <element id="artifact" artifact-name="szon-zad1-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>

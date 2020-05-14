@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="szon-zad1-web:war">
+    <output-path>$PROJECT_DIR$/szon-zad1-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>szon-zad1-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="szon-zad1-web.war">
+      <element id="artifact" artifact-name="szon-zad1-web:war exploded" />
+    </root>
+  </artifact>
+</component>
