@@ -7,275 +7,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c896cf92-7615-47f4-a094-48b3ec771977" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/artifacts/lab1_ear_ear.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/artifacts/lab1_ear_ear_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/artifacts/lab1_ejb_ejb.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/artifacts/lab1_ejb_ejb_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/artifacts/lab1_web_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/artifacts/lab1_web_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/artifacts/soap_api_ejb.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/artifacts/soap_api_ejb_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/azureSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_activation_javax_activation_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_org_apache_xml_internal_resolver_20050927.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_xml_bind_jaxb_jxc_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_xml_bind_jaxb_jxc_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_xml_bind_jaxb_xjc_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_xml_bind_jaxb_xjc_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_xml_messaging_saaj_saaj_impl_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_xml_messaging_saaj_saaj_impl_1_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_xml_stream_buffer_streambuffer_1_5_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_xml_stream_buffer_streambuffer_1_5_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_xml_ws_jaxws_eclipselink_plugin_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_xml_ws_jaxws_eclipselink_plugin_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_xml_ws_jaxws_rt_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_xml_ws_jaxws_rt_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_xml_ws_jaxws_tools_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_xml_ws_jaxws_tools_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_xml_ws_policy_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_xml_ws_policy_2_7_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_xml_ws_sdo_eclipselink_plugin_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__com_sun_xml_ws_sdo_eclipselink_plugin_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__commonj_sdo_commonj_sdo_2_1_1_v201112051852.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__javax_enterprise_cdi_api_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__javax_interceptor_javax_interceptor_api_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__javax_jws_javax_jws_api_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__javax_jws_jsr181_api_1_0_MR1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__javax_xml_soap_javax_xml_soap_api_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__javax_xml_ws_jaxws_api_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__javax_xml_ws_jaxws_api_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__jboss_jboss_annotations_ejb3_4_2_2_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_eclipse_persistence_commonj_sdo_2_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_eclipse_persistence_eclipselink_2_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_eclipse_persistence_javax_persistence_2_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_asm_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_core_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_moxy_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_sdo_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_glassfish_external_management_api_3_0_0_b012.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_glassfish_gmbal_gmbal_api_only_3_1_0_b001.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_glassfish_ha_ha_api_3_1_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_glassfish_javax_json_1_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_3_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_arquillian_config_arquillian_config_api_1_1_2_Final_wildfly_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_arquillian_config_arquillian_config_impl_base_1_1_2_Final_wildfly_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_impl_base_1_1_2_Final_wildfly_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_spi_1_1_2_Final_wildfly_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_api_1_1_2_Final_wildfly_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_impl_base_1_1_2_Final_wildfly_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_spi_1_1_2_Final_wildfly_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_api_1_1_2_Final_wildfly_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_impl_base_1_1_2_Final_wildfly_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_spi_1_1_2_Final_wildfly_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_arquillian_junit_arquillian_junit_container_1_1_2_Final_wildfly_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_arquillian_junit_arquillian_junit_core_1_1_2_Final_wildfly_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_arquillian_protocol_arquillian_protocol_servlet_1_1_2_Final_wildfly_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_api_1_1_2_Final_wildfly_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_impl_base_1_1_2_Final_wildfly_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_spi_1_1_2_Final_wildfly_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_resteasy_jaxrs_api_3_0_10_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_shrinkwrap_descriptors_shrinkwrap_descriptors_api_base_2_0_0_alpha_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_shrinkwrap_descriptors_shrinkwrap_descriptors_spi_2_0_0_alpha_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_shrinkwrap_shrinkwrap_api_1_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_shrinkwrap_shrinkwrap_impl_base_1_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_shrinkwrap_shrinkwrap_spi_1_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_spec_javax_ejb_jboss_ejb_api_3_2_spec_1_0_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_spec_javax_faces_jboss_jsf_api_2_2_spec_2_2_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jboss_ws_jbossws_api_1_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jvnet_mimepull_mimepull_1_9_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jvnet_mimepull_mimepull_1_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_7_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/lab1-ear/target/lab1-ear/pl.edu.agh.soa.lab-lab1-web-1.0.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/lab1-web/target/lab1-web.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/lab1-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/lab1-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/soap-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/src/main/java/pl.edu.agh.soa.soap/StudentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/src/main/java/pl.edu.agh.soa.soap/StudentServiceInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/src/main/java/pl.edu.agh.soa.soap/Students.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/src/main/java/pl.edu.agh.soa.soap/applicationIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/src/main/java/pl.edu.agh.soa.soap/models/Course.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/src/main/java/pl.edu.agh.soa.soap/models/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/src/main/resources/META-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/src/main/resources/roles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/src/main/resources/users.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/src/test/resources/META-INF/test-persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/src/test/resources/arquillian.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/src/test/resources/test-ds.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/target/classes/META-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/target/classes/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/target/classes/pl/edu/agh/soa/soap/StudentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/target/classes/pl/edu/agh/soa/soap/StudentServiceInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/target/classes/pl/edu/agh/soa/soap/Students.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/target/classes/pl/edu/agh/soa/soap/models/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/target/classes/pl/edu/agh/soa/soap/models/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/target/classes/roles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/target/classes/users.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/target/lab1-ejb.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/target/test-classes/META-INF/test-persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/target/test-classes/arquillian.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-api/target/test-classes/test-ds.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/soap-connector.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/src/main/java/pl/edu/agh/soa/soap/AddCourseToStudent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/src/main/java/pl/edu/agh/soa/soap/AddCourseToStudentResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/src/main/java/pl/edu/agh/soa/soap/AddStudent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/src/main/java/pl/edu/agh/soa/soap/AddStudentResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/src/main/java/pl/edu/agh/soa/soap/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/src/main/java/pl/edu/agh/soa/soap/Course.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/src/main/java/pl/edu/agh/soa/soap/DeleteStudent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/src/main/java/pl/edu/agh/soa/soap/DeleteStudentResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/src/main/java/pl/edu/agh/soa/soap/GetAllStudents.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/src/main/java/pl/edu/agh/soa/soap/GetAllStudentsResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/src/main/java/pl/edu/agh/soa/soap/GetIcon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/src/main/java/pl/edu/agh/soa/soap/GetIconResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/src/main/java/pl/edu/agh/soa/soap/GetStudent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/src/main/java/pl/edu/agh/soa/soap/GetStudentResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/src/main/java/pl/edu/agh/soa/soap/GetStudentsByCourse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/src/main/java/pl/edu/agh/soa/soap/GetStudentsByCourseResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/src/main/java/pl/edu/agh/soa/soap/GetStudentsByFaculty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/src/main/java/pl/edu/agh/soa/soap/GetStudentsByFacultyResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/src/main/java/pl/edu/agh/soa/soap/ObjectFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/src/main/java/pl/edu/agh/soa/soap/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/src/main/java/pl/edu/agh/soa/soap/StudentServiceInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/src/main/java/pl/edu/agh/soa/soap/StudentServiceService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/src/main/java/pl/edu/agh/soa/soap/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/AddCourseToStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/AddCourseToStudentResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/AddStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/AddStudentResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/DeleteStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/DeleteStudentResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/GetAllStudents.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/GetAllStudentsResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/GetIcon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/GetIconResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/GetStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/GetStudentResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/GetStudentsByCourse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/GetStudentsByCourseResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/GetStudentsByFaculty.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/GetStudentsByFacultyResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/ObjectFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/Student$Courses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/StudentServiceInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/StudentServiceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/classes/pl/edu/agh/soa/soap/package-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/jaxws/stale/.a68d2ffc7f35c3948ceb8073900d27d6d1351769" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/soap-connector/target/soap-connector.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/src/main/application/META-INF/lab1-ds.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/szon-zad1-ear.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/application.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear.ear" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/META-INF/application.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/META-INF/lab1-ds.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/com.sun.org.apache.xml.internal-resolver-20050927.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/com.sun.xml.bind-jaxb-core-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/com.sun.xml.bind-jaxb-impl-2.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/com.sun.xml.bind-jaxb-jxc-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/com.sun.xml.bind-jaxb-xjc-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/com.sun.xml.fastinfoset-FastInfoset-1.2.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/com.sun.xml.messaging.saaj-saaj-impl-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/com.sun.xml.stream.buffer-streambuffer-1.5.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/com.sun.xml.ws-jaxws-eclipselink-plugin-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/com.sun.xml.ws-jaxws-rt-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/com.sun.xml.ws-jaxws-tools-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/com.sun.xml.ws-policy-2.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/com.sun.xml.ws-sdo-eclipselink-plugin-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/commonj.sdo-commonj.sdo-2.1.1.v201112051852.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/javax.annotation-javax.annotation-api-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/javax.jws-jsr181-api-1.0-MR1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/javax.mail-mail-1.4.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/javax.validation-validation-api-1.1.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/javax.xml.bind-jaxb-api-2.2.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/javax.xml.soap-javax.xml.soap-api-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/javax.xml.ws-jaxws-api-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/jboss-jboss-annotations-ejb3-4.2.2.GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/org.codehaus.woodstox-stax2-api-3.1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/org.codehaus.woodstox-woodstox-core-asl-4.4.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/org.eclipse.persistence-commonj.sdo-2.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/org.eclipse.persistence-eclipselink-2.6.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/org.eclipse.persistence-javax.persistence-2.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/org.glassfish-javax.json-1.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/org.glassfish.external-management-api-3.0.0-b012.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/org.glassfish.gmbal-gmbal-api-only-3.1.0-b001.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/org.glassfish.ha-ha-api-3.1.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/org.jboss.ws-jbossws-api-1.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/org.jvnet.mimepull-mimepull-1.9.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/lib/org.jvnet.staxex-stax-ex-1.7.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/lab1-ear/pl.edu.agh.soa.lab-lab1-ejb-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ear/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ejb/target/classes/META-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ejb/target/classes/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ejb/target/lab1-ejb.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ejb/target/lab1-ejb/META-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ejb/target/lab1-ejb/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ejb/target/lab1-ejb/pl/edu/agh/soa/soap/StudentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ejb/target/lab1-ejb/pl/edu/agh/soa/soap/StudentServiceInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ejb/target/lab1-ejb/pl/edu/agh/soa/soap/Students.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ejb/target/lab1-ejb/pl/edu/agh/soa/soap/models/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ejb/target/lab1-ejb/pl/edu/agh/soa/soap/models/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ejb/target/lab1-ejb/roles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ejb/target/lab1-ejb/users.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ejb/target/test-classes/META-INF/test-persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ejb/target/test-classes/arquillian.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-ejb/target/test-classes/test-ds.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-web/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-web/src/main/webapp/WEB-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-web/src/main/webapp/WEB-INF/faces-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-web/szon-zad1-web.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-web/target/lab1-web/WEB-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-web/target/lab1-web/WEB-INF/faces-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1-web/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/szon-zad1.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../szon-zad2/.idea/artifacts/lab2_ejb_ejb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../szon-zad2/.idea/artifacts/lab2_ejb_ejb_exploaded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../szon-zad2/.idea/artifacts/szon_zad2_ear_ear.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../szon-zad2/.idea/artifacts/szon_zad2_ear_ear_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../szon-zad2/.idea/artifacts/szon_zad2_model_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../szon-zad2/.idea/artifacts/szon_zad2_web_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../szon-zad2/.idea/artifacts/szon_zad2_web_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../szon-zad2/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../szon-zad2/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../szon-zad2/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../szon-zad2/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../szon-zad2/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../szon-zad2/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_4_0_b180830_0359.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../szon-zad2/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../szon-zad2/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../szon-zad2/.idea/libraries/Maven__org_jboss_ws_jbossws_api_1_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../szon-zad2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../szon-zad2/rest-api/rest-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../szon-zad2/rest-connector/rest-connector.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/szon-zad2-model.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soap-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/soap-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soap-api/target/szon-zad1-ejb.jar" beforeDir="false" afterPath="$PROJECT_DIR$/soap-api/target/szon-zad1-ejb.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soap-connector/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/soap-connector/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soap-connector/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/soap-connector/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soap-connector/target/soap-connector.jar" beforeDir="false" afterPath="$PROJECT_DIR$/soap-connector/target/soap-connector.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/szon-zad1-ear/target/szon-zad1-ear.ear" beforeDir="false" afterPath="$PROJECT_DIR$/szon-zad1-ear/target/szon-zad1-ear.ear" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/szon-zad1-ear/target/szon-zad1-ear/pl.edu.agh.soa.lab-szon-zad1-ejb-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/szon-zad1-ear/target/szon-zad1-ear/pl.edu.agh.soa.lab-szon-zad1-ejb-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/szon-zad1-ear/target/szon-zad1-ear/pl.edu.agh.soa.lab-szon-zad1-web-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/szon-zad1-ear/target/szon-zad1-ear/pl.edu.agh.soa.lab-szon-zad1-web-1.0.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/szon-zad1-web/target/szon-zad1-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/szon-zad1-web/target/szon-zad1-web.war" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/lab1-ear/target/" />
     <ignored path="$PROJECT_DIR$/lab1-ejb/target/" />
@@ -294,18 +56,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/StudentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1411">
-              <caret line="102" column="20" selection-start-line="102" selection-end-line="103" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soap-api/src/main/resources/roles.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -323,14 +73,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soap-connector/src/main/java/pl/edu/agh/soa/soap/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="73" column="42" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
+            <state relative-caret-position="130">
+              <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/szon-zad1-ejb/target/lab1-ejb/META-INF/persistence.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="27" column="45" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -402,12 +161,13 @@
       <find>FactoryFinder</find>
       <find>MetaFactory</find>
       <find>dataS</find>
-      <find>lab1DS</find>
       <find>lab1dS</find>
       <find>szon</find>
       <find>ejb</find>
       <find>lab1-ejb</find>
       <find>lab1</find>
+      <find>jboss.persistenceunit</find>
+      <find>lab1DS</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -457,10 +217,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-49" />
-    <option name="y" value="-16" />
-    <option name="width" value="983" />
-    <option name="height" value="521" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -470,21 +230,43 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="szon-zad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szon-zad1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szon-zad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szon-zad1" type="462c0819:PsiDirectoryNode" />
+              <item name="szon-zad1-ejb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szon-zad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szon-zad1" type="462c0819:PsiDirectoryNode" />
+              <item name="szon-zad1-ejb" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587382741273" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../szon-zad2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -642,16 +424,18 @@
       <workItem from="1587210161143" duration="20978000" />
       <workItem from="1587382865011" duration="681000" />
       <workItem from="1587651414323" duration="76000" />
+      <workItem from="1589478443521" duration="5809000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53193000" />
+    <option name="totallyTimeSpent" value="59002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1913767" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1913767" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -664,7 +448,7 @@
       <window_info id="Web" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.468039" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46644846" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -672,7 +456,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5146262" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.5139116" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Remote Spark Job in Cluster" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.3289689" />
@@ -959,11 +743,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/soap-connector/src/main/java/pl/edu/agh/soa/soap/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="73" column="42" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
+        <state relative-caret-position="130">
+          <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/szon-zad1-ejb/target/lab1-ejb/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -973,7 +764,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>lab1-ear:ear</last-edited>
+          <last-edited>lab1-ejb:ejb exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

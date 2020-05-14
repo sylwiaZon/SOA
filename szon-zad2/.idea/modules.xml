@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rest-api/rest-api.iml" filepath="$PROJECT_DIR$/rest-api/rest-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest-connector/rest-connector.iml" filepath="$PROJECT_DIR$/rest-connector/rest-connector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soap-api/soap-api.iml" filepath="$PROJECT_DIR$/soap-api/soap-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soap-connector/soap-connector.iml" filepath="$PROJECT_DIR$/soap-connector/soap-connector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/szon-zad2.iml" filepath="$PROJECT_DIR$/szon-zad2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/szon-zad2-ear/szon-zad2-ear.iml" filepath="$PROJECT_DIR$/szon-zad2-ear/szon-zad2-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/szon-zad2-model/szon-zad2-model.iml" filepath="$PROJECT_DIR$/szon-zad2-model/szon-zad2-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/szon-zad2-web/szon-zad2-web.iml" filepath="$PROJECT_DIR$/szon-zad2-web/szon-zad2-web.iml" />
+    </modules>
+  </component>
+</project>

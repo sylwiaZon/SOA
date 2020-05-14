@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="lab2-ejb:ejb exploaded">
+    <output-path>$PROJECT_DIR$/szon-zad2-ejb/target/lab2-ejb</output-path>
+    <root id="root">
+      <element id="module-output" name="soap-api" />
+      <element id="javaee-facet-resources" facet="soap-api/ejb/EJB" />
+    </root>
+  </artifact>
+</component>
