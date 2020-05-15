@@ -44,6 +44,18 @@ public class Student {
         return courses;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public void setFaculty(String faculty) {
+        this.faculty = faculty;
+    }
+
     public void addCourse(Course course){
         courses.add(course);
     }

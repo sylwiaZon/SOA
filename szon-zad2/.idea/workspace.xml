@@ -13,74 +13,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c896cf92-7615-47f4-a094-48b3ec771977" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/rest_api_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/rest_api_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest-api/src/main/java/pl/edu/agh/soa/rest/RestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest-api/src/main/java/pl/edu/agh/soa/rest/StudentEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest-api/src/main/java/pl/edu/agh/soa/rest/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest-api/src/main/java/pl/edu/agh/soa/rest/applicationIcon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../szon-zad1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/lab2_ejb_ejb.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/lab2_ejb_ejb_exploaded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/szon_zad2_ear_ear_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/szon_zad2_ear_ear_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/szon_zad2_web_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/rest_api_web_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/szon_zad2_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/rest_api_web_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/rest_api_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/rest_api_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/szon-zad2-model/pl/edu/agh/soa/models/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/szon-zad2-model/pl/edu/agh/soa/models/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-api/target/szon-zad2-web.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-api/rest-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/rest-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-api/src/main/java/pl/edu/agh/soa/rest/StudentEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/src/main/java/pl/edu/agh/soa/rest/StudentEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-api/target/classes/pl/edu/agh/soa/rest/StudentEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/target/classes/pl/edu/agh/soa/rest/StudentEndpoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-api/target/rest-api.war" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/target/rest-api.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-api/target/rest-api/WEB-INF/classes/pl/edu/agh/soa/rest/StudentEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/target/rest-api/WEB-INF/classes/pl/edu/agh/soa/rest/StudentEndpoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-api/target/rest-api/WEB-INF/lib/szon-zad2-model-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/target/rest-api/WEB-INF/lib/szon-zad2-model-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/Students.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soap-api/target/classes/pl/edu/agh/soa/soap/StudentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soap-api/target/classes/pl/edu/agh/soa/soap/StudentServiceInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soap-api/target/classes/pl/edu/agh/soa/soap/Students.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soap-api/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soap-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/soap-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soap-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soap-api/target/szon-zad2-ejb.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soap-api/target/test-classes/META-INF/test-persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soap-api/target/test-classes/arquillian.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soap-api/target/test-classes/test-ds.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soap-api/target/classes/pl/edu/agh/soa/soap/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/soap-api/target/classes/pl/edu/agh/soa/soap/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soap-api/target/szon-zad2-ejb.jar" beforeDir="false" afterPath="$PROJECT_DIR$/soap-api/target/szon-zad2-ejb.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soap-connector/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/soap-connector/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soap-connector/target/soap-connector.jar" beforeDir="false" afterPath="$PROJECT_DIR$/soap-connector/target/soap-connector.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-ear/szon-zad2-ear.iml" beforeDir="false" afterPath="$PROJECT_DIR$/szon-zad2-ear/szon-zad2-ear.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/szon-zad2-ear/target/szon-zad2-ear.ear" beforeDir="false" afterPath="$PROJECT_DIR$/szon-zad2-ear/target/szon-zad2-ear.ear" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/szon-zad2-ear/target/szon-zad2-ear/lib/pl.edu.agh.soa.lab-szon-zad2-model-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/szon-zad2-ear/target/szon-zad2-ear/lib/pl.edu.agh.soa.lab-szon-zad2-model-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/szon-zad2-ear/target/szon-zad2-ear/pl.edu.agh.soa.lab-szon-zad2-ejb-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/szon-zad2-ear/target/szon-zad2-ear/pl.edu.agh.soa.lab-szon-zad2-ejb-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-ear/target/szon-zad2-ear/pl.edu.agh.soa.lab-szon-zad2-web-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/szon-zad2-ear/target/szon-zad2-ear/pl.edu.agh.soa.lab-szon-zad2-web-1.0.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-ejb/target/classes/META-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-ejb/target/classes/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-ejb/target/lab2-ejb.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-ejb/target/lab2-ejb/META-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-ejb/target/lab2-ejb/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-ejb/target/lab2-ejb/pl/edu/agh/soa/soap/StudentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-ejb/target/lab2-ejb/pl/edu/agh/soa/soap/StudentServiceInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-ejb/target/lab2-ejb/pl/edu/agh/soa/soap/Students.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-ejb/target/lab2-ejb/roles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-ejb/target/lab2-ejb/users.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-ejb/target/test-classes/META-INF/test-persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-ejb/target/test-classes/arquillian.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-ejb/target/test-classes/test-ds.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/szon-zad2-model/src/main/java/pl/edu/agh/soa/models/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/szon-zad2-model/src/main/java/pl/edu/agh/soa/models/Course.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/szon-zad2-model/src/main/java/pl/edu/agh/soa/models/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/szon-zad2-model/src/main/java/pl/edu/agh/soa/models/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-model/szon-zad2-model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/szon-zad2-model/szon-zad2-model.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-model/target/classes/main/java/pl/edu/agh/soa/models/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-model/target/classes/main/java/pl/edu/agh/soa/models/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/szon-zad2-model/target/classes/pl/edu/agh/soa/models/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/szon-zad2-model/target/classes/pl/edu/agh/soa/models/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/szon-zad2-model/target/classes/pl/edu/agh/soa/models/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/szon-zad2-model/target/classes/pl/edu/agh/soa/models/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/szon-zad2-model/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/szon-zad2-model/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/szon-zad2-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/szon-zad2-model/target/szon-zad2-model-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/szon-zad2-model/target/szon-zad2-model-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-web/src/main/webapp/WEB-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-web/src/main/webapp/WEB-INF/faces-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/src/main/webapp/WEB-INF/faces-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-web/szon-zad2-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/rest-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-web/target/szon-zad2-web/WEB-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szon-zad2-web/target/szon-zad2-web/WEB-INF/faces-config.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/lab1-ear/target/" />
     <ignored path="$PROJECT_DIR$/lab1-ejb/target/" />
@@ -105,13 +66,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/StudentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="155">
+              <caret line="102" column="118" selection-start-line="102" selection-start-column="118" selection-end-line="102" selection-end-column="118" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/StudentServiceInterface.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -126,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/Students.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="289">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,10 +102,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/szon-zad2-model/src/main/java/pl/edu/agh/soa/models/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="170">
+              <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1060#1061#0" expanded="true" />
+                <element signature="e#1092#1093#0" expanded="true" />
+                <element signature="e#1138#1139#0" expanded="true" />
+                <element signature="e#1176#1177#0" expanded="true" />
+                <element signature="e#1222#1223#0" expanded="true" />
+                <element signature="e#1260#1261#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,8 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/szon-zad2-model/src/main/java/pl/edu/agh/soa/models/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="153">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -171,20 +141,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rest-api/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1666">
-              <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
+            <state relative-caret-position="234">
+              <caret line="103" column="20" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rest-api/src/main/java/pl/edu/agh/soa/rest/StudentEndpoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="85" column="115" selection-start-line="85" selection-start-column="115" selection-end-line="85" selection-end-column="115" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rest-api/src/main/java/pl/edu/agh/soa/rest/StudentEndpoint.java">
+        <entry file="file://$PROJECT_DIR$/rest-api/src/main/java/pl/edu/agh/soa/rest/Students.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="138">
+              <caret line="72" column="55" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -194,15 +173,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="177">
               <caret line="131" column="8" selection-start-line="131" selection-start-column="8" selection-end-line="136" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -237,6 +207,7 @@
       <find>pl.edu.agh.soa</find>
       <find>dependencies</find>
       <find>dependencyManagement</find>
+      <find>main.java</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Sylwia\Desktop\Studia\SOA\zad1\szon-zad2</dir>
@@ -278,15 +249,16 @@
         <option value="$PROJECT_DIR$/szon-zad2-model/src/pl/edu/agh/soa/models/Student.java" />
         <option value="$PROJECT_DIR$/szon-zad2-model/src/main/java/pl.edu.agh.soa.soap/Students.java" />
         <option value="$PROJECT_DIR$/rest-api/src/main/java/pl/edu/agh/soa/rest/RestConfig.java" />
-        <option value="$PROJECT_DIR$/rest-api/src/main/java/pl/edu/agh/soa/rest/StudentEndpoint.java" />
         <option value="$PROJECT_DIR$/szon-zad2-web/src/main/java/pl/edu/agh/soa/rest/StudentEndpoint.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/rest-api/pom.xml" />
+        <option value="$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/Students.java" />
+        <option value="$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/StudentServiceInterface.java" />
         <option value="$PROJECT_DIR$/szon-zad2-model/src/main/java/pl/edu/agh/soa/models/Student.java" />
         <option value="$PROJECT_DIR$/szon-zad2-model/src/main/java/pl/edu/agh/soa/models/Course.java" />
-        <option value="$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/Students.java" />
+        <option value="$PROJECT_DIR$/rest-api/src/main/java/pl/edu/agh/soa/rest/Students.java" />
+        <option value="$PROJECT_DIR$/rest-api/pom.xml" />
         <option value="$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/StudentService.java" />
-        <option value="$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/StudentServiceInterface.java" />
+        <option value="$PROJECT_DIR$/rest-api/src/main/java/pl/edu/agh/soa/rest/StudentEndpoint.java" />
       </list>
     </option>
   </component>
@@ -368,6 +340,47 @@
             <path>
               <item name="szon-zad2" type="b2602c69:ProjectViewProjectNode" />
               <item name="szon-zad2" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szon-zad2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szon-zad2" type="462c0819:PsiDirectoryNode" />
+              <item name="soap-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szon-zad2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szon-zad2" type="462c0819:PsiDirectoryNode" />
+              <item name="soap-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szon-zad2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szon-zad2" type="462c0819:PsiDirectoryNode" />
+              <item name="soap-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szon-zad2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szon-zad2" type="462c0819:PsiDirectoryNode" />
+              <item name="soap-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szon-zad2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szon-zad2" type="462c0819:PsiDirectoryNode" />
+              <item name="soap-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pl.edu.agh.soa.soap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szon-zad2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szon-zad2" type="462c0819:PsiDirectoryNode" />
               <item name="szon-zad2-model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -410,7 +423,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589542125008" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589554930132" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/rest-api/target" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -421,9 +434,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sylwia\Desktop\Studia\SOA\zad1\szon-zad2\rest-api\src\main\java\pl\edu\agh\soa\rest" />
       <recent name="C:\Users\Sylwia\Desktop\Studia\SOA\zad1\szon-zad2\rest-api" />
       <recent name="C:\Users\Sylwia\Desktop\Studia\SOA\zad1\szon-zad2\szon-zad2-model\src" />
       <recent name="C:\Users\Sylwia\Desktop\Studia\SOA\zad1\szon-zad2\szon-zad2-model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.edu.agh.soa.rest" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sylwia\Desktop\Studia\SOA\zad1\lab1\soap-api\src\main\java\pl.edu.agh.soa.soap" />
@@ -626,18 +643,18 @@
       <workItem from="1587382865011" duration="681000" />
       <workItem from="1587651414323" duration="76000" />
       <workItem from="1589478443521" duration="591000" />
-      <workItem from="1589479177989" duration="14885000" />
+      <workItem from="1589479177989" duration="24012000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68669000" />
+    <option name="totallyTimeSpent" value="77796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19440243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19440243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -650,7 +667,7 @@
       <window_info id="Web" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -936,6 +953,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/StudentServiceInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rest-api/src/main/java/pl/edu/agh/soa/rest/RestConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -946,61 +973,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rest-api/src/main/java/pl/edu/agh/soa/rest/StudentEndpoint.java">
+    <entry file="file://$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/Students.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="289">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/szon-zad2-model/src/main/java/pl/edu/agh/soa/models/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="170">
+          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/Students.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1222#1223#0" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/szon-zad2-model/src/main/java/pl/edu/agh/soa/models/Course.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="153">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="103" column="20" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest-api/src/main/java/pl/edu/agh/soa/rest/Students.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="72" column="55" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/StudentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="155">
+          <caret line="102" column="118" selection-start-line="102" selection-start-column="118" selection-end-line="102" selection-end-column="118" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/StudentServiceInterface.java">
+    <entry file="file://$PROJECT_DIR$/rest-api/src/main/java/pl/edu/agh/soa/rest/StudentEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="177">
+          <caret line="85" column="115" selection-start-line="85" selection-start-column="115" selection-end-line="85" selection-end-column="115" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -7,6 +7,8 @@ public class Course {
     private int ectsPoints;
     private int hours;
 
+    public Course(){}
+
     public Course(String name, String profesorName, String profesorSurname, int ectsPoints, int hours) {
         this.name = name;
         this.profesorName = profesorName;
