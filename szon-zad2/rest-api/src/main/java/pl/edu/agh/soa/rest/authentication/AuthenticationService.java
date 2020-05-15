@@ -2,6 +2,7 @@ package pl.edu.agh.soa.rest.authentication;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
+import io.swagger.annotations.*;
 import pl.edu.agh.soa.models.User;
 
 import javax.inject.Inject;
@@ -15,11 +16,13 @@ import java.security.Key;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.Date;
+import java.util.HashMap;
 
 import static javax.ws.rs.core.HttpHeaders.AUTHORIZATION;
 import static javax.ws.rs.core.MediaType.APPLICATION_FORM_URLENCODED;
 import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
 
+@Api(value = "/authenticate", description = "Login or register")
 @Path("/authenticate")
 @Produces(APPLICATION_JSON)
 @Consumes(APPLICATION_JSON)
@@ -31,37 +34,37 @@ public class AuthenticationService {
     @Context
     private UriInfo uriInfo;
 
+
+
     @POST
     @Path("/login")
-    public Response authenticateUser(User user) {
-        try {
+    @ApiOperation(value = "Login")
+    @ApiResponses({@ApiResponse(code=200, message="Success"), @ApiResponse(code=401, message="Unauthorized")})
+    public Response loginUser(@ApiParam(value = "User to login", required=true) User user) {
+        if (authenticate(user)){
+            return Response.ok().header(HttpHeaders.AUTHORIZATION, issueToken(user.getLogin())).build();
+        }
+        return Response.status(Response.Status.UNAUTHORIZED).build();
+    }
 
-            String token = null;
-
-            String login = user.getLogin();
-            String password = user.getPassword();
-            boolean isValid = authenticate(login, password);
-
-            if (isValid)
-                token = issueToken(login);
-
-            if (token != null) {
-                return Response.ok().header(HttpHeaders.AUTHORIZATION, "token " + token).build();
-            } else {
-                return Response.status(Response.Status.UNAUTHORIZED).build();
-            }
-
-        } catch (Exception e) {
-            return Response.status(Response.Status.UNAUTHORIZED).build();
+    @POST
+    @Path("/register")
+    @ApiOperation(value = "Register")
+    @ApiResponses({@ApiResponse(code=201, message="Created"), @ApiResponse(code=409, message="Conflict")})
+    public Response registerUser(@ApiParam(value = "User to register", required=true) User user) {
+        if(!Users.getInstance().addUser(user)){
+            return Response.status(Response.Status.CONFLICT).build();
+        } else{
+            return Response.status(Response.Status.CREATED).build();
         }
     }
 
-    private boolean authenticate(String login, String password) throws SecurityException {
-        if ("ninja".equals(login) && "ninja".equals(password)) {
+    private boolean authenticate(User user) throws SecurityException {
+        String usr = Users.getInstance().getUsers().get(user.getLogin());
+        if(usr != null && usr.equals(user.getPassword())){
             return true;
-        } else {
-            throw new SecurityException("Invalid user/password");
         }
+        return false;
     }
 
     private String issueToken(String login) {

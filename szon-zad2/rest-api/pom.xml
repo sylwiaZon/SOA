@@ -132,6 +132,7 @@
            <artifactId>swagger-jaxrs</artifactId>
            <version>1.5.0</version>
        </dependency>
+
    </dependencies>
 
    <build>
