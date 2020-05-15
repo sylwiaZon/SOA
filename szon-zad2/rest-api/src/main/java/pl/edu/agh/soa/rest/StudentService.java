@@ -1,6 +1,7 @@
 package pl.edu.agh.soa.rest;
 
 import io.swagger.annotations.*;
+import pl.edu.agh.soa.model.StudentOuterClass;
 import pl.edu.agh.soa.models.Course;
 import pl.edu.agh.soa.models.Student;
 import pl.edu.agh.soa.rest.authentication.JWTTokenNeeded;
@@ -12,6 +13,7 @@ import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.ArrayList;
 
 @Api(value = "/students", description = "Get students info")
 @Path("/students")
@@ -24,6 +26,7 @@ public class StudentService {
     @ApiResponses({@ApiResponse(code=200, message="Success")})
     public Response getAll(@ApiParam(value = "filter by course", required = false) @QueryParam("course") String course,
                            @ApiParam(value = "filter by faculty", required = false) @QueryParam("faculty") String faculty) {
+
         if(course != null){
             return Response.ok(Students.getInstance().getStudentsByCourse(course).values()).status(Response.Status.OK).build();
         }
@@ -116,4 +119,30 @@ public class StudentService {
 
     }
 
+    @GET
+    @Path("/{albumNumber}/proto")
+    @Produces("application/protobuf")
+    @ApiOperation(value = "Get student as proto buffer")
+    @ApiResponses({@ApiResponse(code=200, message="Success")})
+    public Response getStudentProto(@ApiParam(value = "Album number to search student by", required = true) @PathParam("albumNumber") int albumNumber){
+
+        Student st = Students.getInstance().getStudent(albumNumber);
+        StudentOuterClass.Student.Builder studentBilder = StudentOuterClass.Student.newBuilder();
+        studentBilder.setAlbumNumber(st.getAlbumNumber())
+                .setField(st.getFaculty())
+                .setName(st.getName())
+                .setSurname(st.getSurname());
+        for(Course c: st.getCourses()) {
+            StudentOuterClass.Course course = StudentOuterClass.Course.newBuilder()
+                    .setName(c.getName())
+                    .setHours(c.getHours())
+                    .setEctsPoints(c.getEctsPoints())
+                    .setProfesorName(c.getProfesorName())
+                    .setProfesorSurname(c.getProfesorSurname())
+                    .build();
+            studentBilder.addCourses(course);
+        }
+        StudentOuterClass.Student student = studentBilder.build();
+        return Response.ok(student.toByteArray(), "application/protobuf").build();
+    }
 }

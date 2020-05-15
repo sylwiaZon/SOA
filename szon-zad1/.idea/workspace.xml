@@ -7,32 +7,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c896cf92-7615-47f4-a094-48b3ec771977" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../szon-zad2/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../szon-zad2/rest-api/src/main/java/pl/edu/agh/soa/rest/Students.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../szon-zad2/rest-api/src/main/java/pl/edu/agh/soa/rest/applicationIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../szon-zad2/.idea/libraries/Maven__pl_edu_agh_soa_lab_szon_zad2_web_war_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/src/main/java/pl/edu/agh/soa/models/Student.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../szon-zad2/.idea/artifacts/rest_api_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/.idea/artifacts/rest_api_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad2/.idea/artifacts/szon_zad2_ear_ear_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/.idea/artifacts/szon_zad2_ear_ear_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../szon-zad2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../szon-zad2/rest-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/rest-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../szon-zad2/rest-api/rest-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/rest-api/rest-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/rest-api/src/main/java/pl/edu/agh/soa/rest/StudentEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/rest-api/src/main/java/pl/edu/agh/soa/rest/StudentEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/rest-api/target/classes/pl/edu/agh/soa/rest/StudentEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/rest-api/target/classes/pl/edu/agh/soa/rest/StudentEndpoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/rest-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/rest-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/rest-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/rest-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad2/rest-api/src/main/java/pl/edu/agh/soa/rest/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/rest-api/src/main/java/pl/edu/agh/soa/rest/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad2/rest-api/target/classes/pl/edu/agh/soa/rest/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/rest-api/target/classes/pl/edu/agh/soa/rest/StudentService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../szon-zad2/rest-api/target/rest-api.war" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/rest-api/target/rest-api.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/rest-api/target/rest-api/WEB-INF/classes/pl/edu/agh/soa/rest/StudentEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/rest-api/target/rest-api/WEB-INF/classes/pl/edu/agh/soa/rest/StudentEndpoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad2/rest-api/target/rest-api/WEB-INF/classes/pl/edu/agh/soa/rest/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/rest-api/target/rest-api/WEB-INF/classes/pl/edu/agh/soa/rest/StudentService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../szon-zad2/rest-api/target/rest-api/WEB-INF/lib/szon-zad2-model-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/rest-api/target/rest-api/WEB-INF/lib/szon-zad2-model-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../szon-zad2/soap-api/target/szon-zad2-ejb.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/soap-api/target/szon-zad2-ejb.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../szon-zad2/soap-connector/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/soap-connector/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../szon-zad2/soap-connector/target/soap-connector.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/soap-connector/target/soap-connector.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-ear/szon-zad2-ear.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-ear/szon-zad2-ear.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-ear/target/szon-zad2-ear.ear" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-ear/target/szon-zad2-ear.ear" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-ear/target/szon-zad2-ear/lib/pl.edu.agh.soa.lab-szon-zad2-model-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-ear/target/szon-zad2-ear/lib/pl.edu.agh.soa.lab-szon-zad2-model-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-ear/target/szon-zad2-ear/pl.edu.agh.soa.lab-szon-zad2-ejb-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-ear/target/szon-zad2-ear/pl.edu.agh.soa.lab-szon-zad2-ejb-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/src/main/java/pl/edu/agh/soa/models/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/src/main/java/pl/edu/agh/soa/models/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/src/main/java/pl/edu/agh/soa/models/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/src/main/java/pl/edu/agh/soa/models/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/target/classes/pl/edu/agh/soa/models/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/target/classes/pl/edu/agh/soa/models/Course.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/target/classes/pl/edu/agh/soa/models/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/target/classes/pl/edu/agh/soa/models/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/szon-zad2-model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/szon-zad2-model.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/target/szon-zad2-model-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/target/szon-zad2-model-1.0.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/lab1-ear/target/" />
@@ -72,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soap-connector/src/main/java/pl/edu/agh/soa/soap/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
+            <state relative-caret-position="1139">
               <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -226,6 +225,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,8 +249,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -421,17 +420,18 @@
       <workItem from="1587382865011" duration="681000" />
       <workItem from="1587651414323" duration="76000" />
       <workItem from="1589478443521" duration="5809000" />
+      <workItem from="1589570400798" duration="587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59002000" />
+    <option name="totallyTimeSpent" value="59589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1913767" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19440243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -699,6 +699,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/soap-connector/src/main/java/pl/edu/agh/soa/soap/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -734,16 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/soap-connector/src/main/java/pl/edu/agh/soa/soap/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

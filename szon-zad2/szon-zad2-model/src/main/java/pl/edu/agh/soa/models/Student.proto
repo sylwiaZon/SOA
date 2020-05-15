@@ -1,0 +1,19 @@
+syntax = "proto2";
+package pl.edu.agh.soa.model;
+
+message Course {
+    required string name = 1;
+    required string profesor_name = 2;
+    required string profesor_surname = 3;
+    required int32 ects_points = 4;
+    required int32 hours = 5;
+}
+
+message Student {
+    required string name = 1;
+    required string surname = 2;
+    required int32 album_number = 3;
+    required string field = 4;
+    repeated Course courses = 5;
+}
+
