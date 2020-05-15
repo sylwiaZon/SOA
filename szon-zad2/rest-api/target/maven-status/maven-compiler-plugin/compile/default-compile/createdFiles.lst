@@ -1,3 +1,8 @@
-pl\edu\agh\soa\rest\StudentEndpoint.class
+pl\edu\agh\soa\rest\StudentService.class
+pl\edu\agh\soa\rest\authentication\AuthenticationService.class
+pl\edu\agh\soa\rest\authentication\KeyGeneratorInterface.class
+pl\edu\agh\soa\rest\authentication\KeyGenerator.class
+pl\edu\agh\soa\rest\authentication\JWTTokenNeededFilter.class
+pl\edu\agh\soa\rest\authentication\JWTTokenNeeded.class
 pl\edu\agh\soa\rest\RestConfig.class
 pl\edu\agh\soa\rest\Students.class
