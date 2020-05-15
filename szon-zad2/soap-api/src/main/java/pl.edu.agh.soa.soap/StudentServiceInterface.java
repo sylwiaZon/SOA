@@ -1,6 +1,6 @@
 package pl.edu.agh.soa.soap;
 
-import pl.edu.agh.soa.models.Student;
+import main.java.pl.edu.agh.soa.models.Student;
 
 import javax.jws.WebParam;
 import javax.jws.WebService;
