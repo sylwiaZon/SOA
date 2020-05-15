@@ -1,7 +1,7 @@
 package pl.edu.agh.soa.soap;
 
-import main.java.pl.edu.agh.soa.models.Course;
-import main.java.pl.edu.agh.soa.models.Student;
+import pl.edu.agh.soa.models.Course;
+import pl.edu.agh.soa.models.Student;
 
 import java.util.HashMap;
 

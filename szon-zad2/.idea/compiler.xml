@@ -6,20 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="rest-api" />
         <module name="soap-api" />
         <module name="soap-connector" />
         <module name="szon-zad2-ear" />
         <module name="szon-zad2-model" />
-        <module name="szon-zad2-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="rest-api" target="11" />
       <module name="soap-api" target="11" />
       <module name="soap-connector" target="8" />
       <module name="szon-zad2" target="11" />
       <module name="szon-zad2-ear" target="11" />
       <module name="szon-zad2-model" target="8" />
-      <module name="szon-zad2-web" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

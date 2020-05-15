@@ -3,7 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="ejb" url="file://$PROJECT_DIR$/soap-api" />
     <file type="javaeeApplication" url="file://$PROJECT_DIR$/szon-zad2-ear" />
-    <file type="web" url="file://$PROJECT_DIR$/szon-zad2-web" />
+    <file type="web" url="file://$PROJECT_DIR$/rest-api" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

@@ -2,8 +2,8 @@ package pl.edu.agh.soa.soap;
 
 import org.jboss.annotation.security.SecurityDomain;
 import org.jboss.ws.api.annotation.WebContext;
-import main.java.pl.edu.agh.soa.models.Course;
-import main.java.pl.edu.agh.soa.models.Student;
+import pl.edu.agh.soa.models.Course;
+import pl.edu.agh.soa.models.Student;
 
 import javax.annotation.security.DeclareRoles;
 import javax.annotation.security.RolesAllowed;

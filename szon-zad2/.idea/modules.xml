@@ -9,7 +9,6 @@
       <module fileurl="file://$PROJECT_DIR$/szon-zad2.iml" filepath="$PROJECT_DIR$/szon-zad2.iml" />
       <module fileurl="file://$PROJECT_DIR$/szon-zad2-ear/szon-zad2-ear.iml" filepath="$PROJECT_DIR$/szon-zad2-ear/szon-zad2-ear.iml" />
       <module fileurl="file://$PROJECT_DIR$/szon-zad2-model/szon-zad2-model.iml" filepath="$PROJECT_DIR$/szon-zad2-model/szon-zad2-model.iml" />
-      <module fileurl="file://$PROJECT_DIR$/szon-zad2-web/szon-zad2-web.iml" filepath="$PROJECT_DIR$/szon-zad2-web/szon-zad2-web.iml" />
     </modules>
   </component>
 </project>

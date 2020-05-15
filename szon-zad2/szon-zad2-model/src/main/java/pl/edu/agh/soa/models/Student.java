@@ -1,4 +1,4 @@
-package main.java.pl.edu.agh.soa.models;
+package pl.edu.agh.soa.models;
 
 import javax.xml.bind.annotation.*;
 import java.util.ArrayList;

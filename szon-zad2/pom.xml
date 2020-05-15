@@ -33,7 +33,7 @@
     <modules>
         <module>soap-api</module>
         <module>szon-zad2-ear</module>
-        <module>szon-zad2-web</module>
+        <module>rest-api</module>
         <module>soap-connector</module>
         <module>szon-zad2-model</module>
     </modules>

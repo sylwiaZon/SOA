@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="rest-api-web:war">
+    <output-path>$PROJECT_DIR$/rest-api/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>szon-zad2-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="szon-zad2-web.war">
+      <element id="artifact" artifact-name="szon-zad2-web:war exploded" />
+    </root>
+  </artifact>
+</component>

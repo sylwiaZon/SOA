@@ -17,7 +17,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="szon-zad2-web" />
+    <orderEntry type="module" module-name="rest-api" />
     <orderEntry type="module" module-name="soap-api" />
     <orderEntry type="library" name="Maven: javax.xml.bind:jaxb-api:2.2.8" level="project" />
     <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-core:2.3.0" level="project" />

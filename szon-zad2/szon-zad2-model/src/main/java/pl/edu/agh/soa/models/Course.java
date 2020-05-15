@@ -1,4 +1,4 @@
-package main.java.pl.edu.agh.soa.models;
+package pl.edu.agh.soa.models;
 
 public class Course {
     private String name;

@@ -15,7 +15,7 @@
       </element>
       <element id="dir-copy" path="$PROJECT_DIR$/szon-zad2-ear/src/main/application" />
       <element id="archive" name="szon-zad2-web-1.0.war">
-        <element id="artifact" artifact-name="szon-zad2-web:war exploded" />
+        <element id="artifact" artifact-name="rest-api:war exploded" />
       </element>
       <element id="archive" name="szon-zad2-ejb-1.0.jar">
         <element id="artifact" artifact-name="soap-api:ejb exploded" />
