@@ -87,7 +87,7 @@ public class StudentService {
     @Path("/{albumNumber}/courses")
     @ApiOperation(value = "Add course to student", authorizations = {@Authorization(value = "jwt")}, notes = "JWT authorization needed")
     @ApiResponses({@ApiResponse(code=201, message="Created")})
-    public Response getStudentCourses(@ApiParam(value = "Album number to search student by", required = true) @PathParam("albumNumber") int albumNumber,
+    public Response addCourseToStudent(@ApiParam(value = "Album number to search student by", required = true) @PathParam("albumNumber") int albumNumber,
                                       @ApiParam(value = "Course to add", required = true) Course course) {
         Students.getInstance().addCourseToStudent(albumNumber,course);
         return Response.ok().status(Response.Status.CREATED).build();
@@ -97,7 +97,7 @@ public class StudentService {
     @Path("/{albumNumber}/courses")
     @ApiOperation(value = "Get student courses")
     @ApiResponses({@ApiResponse(code=200, message="Success")})
-    public Response addCourseToStudent(@ApiParam(value = "Album number to search student by", required = true) @PathParam("albumNumber") int albumNumber) {
+    public Response getStudentCourses(@ApiParam(value = "Album number to search student by", required = true) @PathParam("albumNumber") int albumNumber) {
         return Response.ok(Students.getInstance().getStudent(albumNumber).getCourses()).status(Response.Status.OK).build();
     }
 
@@ -124,7 +124,7 @@ public class StudentService {
     @Produces("application/protobuf")
     @ApiOperation(value = "Get student as proto buffer")
     @ApiResponses({@ApiResponse(code=200, message="Success")})
-    public Response getStudentProto(@ApiParam(value = "Album number to search student by", required = true) @PathParam("albumNumber") int albumNumber){
+    public Response getStudentProto(@ApiParam(value = "Album number to search student by", required = true) @PathParam("albumNumber") int albumNumber) {
 
         Student st = Students.getInstance().getStudent(albumNumber);
         StudentOuterClass.Student.Builder studentBilder = StudentOuterClass.Student.newBuilder();
@@ -132,7 +132,7 @@ public class StudentService {
                 .setField(st.getFaculty())
                 .setName(st.getName())
                 .setSurname(st.getSurname());
-        for(Course c: st.getCourses()) {
+        for (Course c : st.getCourses()) {
             StudentOuterClass.Course course = StudentOuterClass.Course.newBuilder()
                     .setName(c.getName())
                     .setHours(c.getHours())

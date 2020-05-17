@@ -34,6 +34,7 @@
         <module>soap-api</module>
         <module>szon-zad2-ear</module>
         <module>rest-api</module>
+        <module>rest-connector</module>
         <module>soap-connector</module>
         <module>szon-zad2-model</module>
     </modules>

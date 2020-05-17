@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="rest-connector:ejb">
+    <output-path>$PROJECT_DIR$/rest-connector/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>rest-connector</module>
+        <packaging>ejb</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="rest-connector.jar">
+      <element id="artifact" artifact-name="rest-connector:ejb exploded" />
+    </root>
+  </artifact>
+</component>

@@ -16,11 +16,11 @@ public class Student {
 
     public Student (){};
 
-    public Student(String name, String surname, int albumNumber, String field) {
+    public Student(String name, String surname, int albumNumber, String faculty) {
         this.name = name;
         this.surname = surname;
         this.albumNumber = albumNumber;
-        this.faculty = field;
+        this.faculty = faculty;
         this.courses = new ArrayList<>();
     }
 
@@ -54,6 +54,9 @@ public class Student {
 
     public void setFaculty(String faculty) {
         this.faculty = faculty;
+    }
+    public void setCourses(ArrayList courses){
+        this.courses = courses;
     }
 
     public void addCourse(Course course){

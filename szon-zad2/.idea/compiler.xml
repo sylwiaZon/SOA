@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="rest-api" />
+        <module name="rest-connector" />
         <module name="soap-api" />
         <module name="soap-connector" />
         <module name="szon-zad2-ear" />
@@ -15,6 +16,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="rest-api" target="11" />
+      <module name="rest-connector" target="8" />
       <module name="soap-api" target="11" />
       <module name="soap-connector" target="8" />
       <module name="szon-zad2" target="11" />
