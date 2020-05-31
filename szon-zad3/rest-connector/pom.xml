@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+   <modelVersion>4.0.0</modelVersion>
+
+   <parent>
+      <artifactId>szon-zad3</artifactId>
+      <groupId>pl.edu.agh.soa.lab</groupId>
+      <version>1.0</version>
+   </parent>
+
+   <artifactId>rest-connector</artifactId>
+   <packaging>ejb</packaging>
+
+   <url>http://wildfly.org</url>
+   <licenses>
+      <license>
+         <name>Apache License, Version 2.0</name>
+         <distribution>repo</distribution>
+         <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+      </license>
+   </licenses>
+
+   <dependencies>
+
+      <!-- Dependency on the EJB module so we can use it's services if needed -->
+       <dependency>
+           <groupId>org.jboss.resteasy</groupId>
+           <artifactId>resteasy-jaxrs</artifactId>
+           <version>3.6.0.Final</version>
+       </dependency>
+       <!-- ReastEasy client -->
+       <dependency>
+           <groupId>org.jboss.resteasy</groupId>
+           <artifactId>resteasy-client</artifactId>
+           <version>3.6.3.Final</version>
+       </dependency>
+       <!-- JAXB provider -->
+       <dependency>
+           <groupId>org.jboss.resteasy</groupId>
+           <artifactId>resteasy-jaxb-provider</artifactId>
+           <version>3.6.3.Final</version>
+       </dependency>
+
+       <dependency>
+           <groupId>org.jboss.resteasy</groupId>
+           <artifactId>resteasy-jackson-provider</artifactId>
+           <version>3.0.4.Final</version>
+       </dependency>
+       <dependency>
+           <groupId>pl.edu.agh.soa.lab</groupId>
+           <artifactId>szon-zad3-model</artifactId>
+           <version>1.0</version>
+           <scope>compile</scope>
+       </dependency>
+   </dependencies>
+
+   <build>
+      <finalName>${project.artifactId}</finalName>
+       <plugins>
+           <plugin>
+               <artifactId>maven-war-plugin</artifactId>
+               <version>${version.war.plugin}</version>
+               <configuration>
+                   <failOnMissingWebXml>false</failOnMissingWebXml>
+               </configuration>
+           </plugin>
+           <plugin>
+               <groupId>org.wildfly.plugins</groupId>
+               <artifactId>wildfly-maven-plugin</artifactId>
+               <version>${version.wildfly.maven.plugin}</version>
+           </plugin>
+           <plugin>
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-compiler-plugin</artifactId>
+               <configuration>
+                   <source>8</source>
+                   <target>8</target>
+               </configuration>
+           </plugin>
+           <plugin>
+               <artifactId>maven-ejb-plugin</artifactId>
+               <version>${version.ejb.plugin}</version>
+               <configuration>
+                   <!-- Tell Maven we are using EJB 3.1 -->
+                   <ejbVersion>3.1</ejbVersion>
+               </configuration>
+           </plugin>
+       </plugins>
+   </build>
+
+</project>

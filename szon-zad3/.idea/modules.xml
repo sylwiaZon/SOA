@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/szon-zad3-model/rest-api.iml" filepath="$PROJECT_DIR$/szon-zad3-model/rest-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/szon-zad3-model/rest-connector.iml" filepath="$PROJECT_DIR$/szon-zad3-model/rest-connector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/szon-zad3-model/soap-api.iml" filepath="$PROJECT_DIR$/szon-zad3-model/soap-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/szon-zad3-model/soap-connector.iml" filepath="$PROJECT_DIR$/szon-zad3-model/soap-connector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/szon-zad3-model/szon-zad3.iml" filepath="$PROJECT_DIR$/szon-zad3-model/szon-zad3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/szon-zad3-model/szon-zad3-dao.iml" filepath="$PROJECT_DIR$/szon-zad3-model/szon-zad3-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/szon-zad3-model/szon-zad3-ear.iml" filepath="$PROJECT_DIR$/szon-zad3-model/szon-zad3-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/szon-zad3-jpa/szon-zad3-jpa.iml" filepath="$PROJECT_DIR$/szon-zad3-jpa/szon-zad3-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/szon-zad3-model/szon-zad3-model.iml" filepath="$PROJECT_DIR$/szon-zad3-model/szon-zad3-model.iml" />
+    </modules>
+  </component>
+</project>

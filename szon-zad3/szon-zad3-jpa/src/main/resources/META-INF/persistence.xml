@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+          http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+             version="2.1">
+
+    <persistence-unit name="StudentUnit" >
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <jta-data-source>java:jboss/datasource/students</jta-data-source>
+        <class>pl.edu.agh.soa.jpa.StudentEntity</class>
+        <class>pl.edu.agh.soa.jpa.FacultyEntity</class>
+        <class>pl.edu.agh.soa.jpa.ProfessorEntity</class>
+        <class>pl.edu.agh.soa.jpa.CourseEntity</class>
+        <class>pl.edu.agh.soa.jpa.UserEntity</class>
+        <properties>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.format_sql" value="true" />
+            <property name="hibernate.hbm2ddl.auto" value="create-drop" />
+        </properties>
+    </persistence-unit>
+
+</persistence>

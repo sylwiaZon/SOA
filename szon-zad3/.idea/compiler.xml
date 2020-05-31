@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rest-api" />
+        <module name="rest-connector" />
+        <module name="soap-api" />
+        <module name="soap-connector" />
+        <module name="szon-zad3-dao" />
+        <module name="szon-zad3-ear" />
+        <module name="szon-zad3-jpa" />
+        <module name="szon-zad3-model" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rest-api" target="11" />
+      <module name="rest-connector" target="8" />
+      <module name="soap-api" target="11" />
+      <module name="soap-connector" target="8" />
+      <module name="szon-zad3" target="11" />
+      <module name="szon-zad3-dao" target="8" />
+      <module name="szon-zad3-ear" target="11" />
+      <module name="szon-zad3-jpa" target="11" />
+      <module name="szon-zad3-model" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="szon-zad3-jpa" options="" />
+    </option>
+  </component>
+</project>

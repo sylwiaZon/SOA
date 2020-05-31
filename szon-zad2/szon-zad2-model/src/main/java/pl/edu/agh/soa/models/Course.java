@@ -1,10 +1,17 @@
 package pl.edu.agh.soa.models;
 
+import org.hibernate.validator.constraints.NotEmpty;
+
 public class Course {
+    @NotEmpty
     private String name;
+    @NotEmpty
     private String profesorName;
+    @NotEmpty
     private String profesorSurname;
+    @NotEmpty
     private int ectsPoints;
+    @NotEmpty
     private int hours;
 
     public Course(){}
@@ -27,10 +34,6 @@ public class Course {
 
     public String getProfesorSurname() {
         return profesorSurname;
-    }
-
-    public String getProfesorFullName() {
-        return profesorName + " " + profesorSurname;
     }
 
     public int getEctsPoints() {
@@ -69,4 +72,8 @@ public class Course {
                 profesorSurname.equals(course.profesorSurname);
     }
 
+    @Override
+    public String toString() {
+        return "Name: " + name + ", Profesor name: " + profesorName + ", Profesor Surname: " + profesorSurname + ", ECTS points: " + ectsPoints + ", hours: " + hours;
+    }
 }

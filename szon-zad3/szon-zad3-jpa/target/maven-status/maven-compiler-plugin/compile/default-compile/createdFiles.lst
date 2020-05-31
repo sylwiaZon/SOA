@@ -1,0 +1,5 @@
+pl\edu\agh\soa\jpa\UserEntity.class
+pl\edu\agh\soa\jpa\CourseEntity.class
+pl\edu\agh\soa\jpa\StudentEntity.class
+pl\edu\agh\soa\jpa\ProfessorEntity.class
+pl\edu\agh\soa\jpa\FacultyEntity.class

@@ -1,14 +1,20 @@
 package pl.edu.agh.soa.models;
 
+import org.hibernate.validator.constraints.NotEmpty;
+
 import javax.xml.bind.annotation.*;
 import java.util.ArrayList;
 
 @XmlRootElement(name="student")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Student {
+    @NotEmpty
     private String name;
+    @NotEmpty
     private String surname;
+    @NotEmpty
     private int albumNumber;
+    @NotEmpty
     private String faculty;
     @XmlElementWrapper(name="courses")
     @XmlElement(name="course")
@@ -21,7 +27,10 @@ public class Student {
         this.surname = surname;
         this.albumNumber = albumNumber;
         this.faculty = faculty;
-        this.courses = new ArrayList<>();
+    }
+
+    public Student(String surname) {
+        this.surname = surname;
     }
 
     public String getName() {
@@ -55,11 +64,10 @@ public class Student {
     public void setFaculty(String faculty) {
         this.faculty = faculty;
     }
-    public void setCourses(ArrayList courses){
-        this.courses = courses;
-    }
 
     public void addCourse(Course course){
+        if(courses == null) courses = new ArrayList<>();
+
         courses.add(course);
     }
 
@@ -78,4 +86,12 @@ public class Student {
                 faculty.equals(student.faculty);
     }
 
+    @Override
+    public String toString() {
+        String resp = "Name: " + name + ", Surname: " + surname + ", Album Number: " + albumNumber + ", Faculty " + faculty ;
+        if(courses != null) {
+            resp = "Name: " + name + ", Surname: " + surname + ", Album Number: " + albumNumber + ", Faculty " + faculty + ", Courses: " + courses.toString();
+        }
+        return resp;
+    }
 }
