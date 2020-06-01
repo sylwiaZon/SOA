@@ -1,10 +1,13 @@
 package pl.edu.agh.soa.rest;
 
 import io.swagger.annotations.*;
+import pl.edu.agh.soa.dao.CourseDao;
+import pl.edu.agh.soa.dao.FacultyDao;
 import pl.edu.agh.soa.dao.StudentDao;
 import pl.edu.agh.soa.dao.UserDao;
 import pl.edu.agh.soa.model.StudentOuterClass;
 import pl.edu.agh.soa.models.Course;
+import pl.edu.agh.soa.models.Faculty;
 import pl.edu.agh.soa.models.Student;
 import pl.edu.agh.soa.rest.authentication.JWTTokenNeeded;
 
@@ -25,20 +28,35 @@ import java.util.Base64;
 public class StudentService {
 
     @EJB
-    StudentDao dao = new StudentDao();
+    StudentDao studentDao = new StudentDao();
+
+    @EJB
+    FacultyDao facultyDao = new FacultyDao();
+
+    @EJB
+    CourseDao courseDao = new CourseDao();
 
     @GET
     @ApiOperation(value = "Get students")
-    @ApiResponses({@ApiResponse(code=200, message="Success")})
-    public Response getAll(@ApiParam(value = "filter by course", required = false) @QueryParam("course") String course,
-                           @ApiParam(value = "filter by faculty", required = false) @QueryParam("faculty") String faculty) {
-        if(course != null){
-            return Response.ok(Students.getInstance().getStudentsByCourse(course).values()).status(Response.Status.OK).build();
+    @ApiResponses({@ApiResponse(code=200, message="Success"), @ApiResponse(code = 404, message = "Not Found")})
+    public Response getAll(@ApiParam(value = "filter by course", required = false) @QueryParam("course") String courseName,
+                           @ApiParam(value = "filter by faculty", required = false) @QueryParam("faculty") String facultyName) {
+        if(facultyName != null){
+            try{
+                Faculty faculty = facultyDao.getFacultyByName(facultyName);
+                return Response.ok(studentDao.getStudentByFaculty(faculty)).status(Response.Status.OK).build();
+            } catch(Exception ex){
+                return Response.notModified().status(Response.Status.NOT_FOUND).build();
+            }
+        }if(courseName != null){
+            try{
+                Course course = courseDao.getCourseByName(courseName);
+                return Response.ok(course).status(Response.Status.OK).build();
+            } catch(Exception ex){
+                return Response.notModified().status(Response.Status.NOT_FOUND).build();
+            }
         }
-        if(faculty != null){
-            return Response.ok(Students.getInstance().getStudentsByFaculty(faculty).values()).status(Response.Status.OK).build();
-        }
-        return Response.ok(Students.getInstance().getAllStudents().values()).status(Response.Status.OK).build();
+        return Response.ok(studentDao.getStudents()).status(Response.Status.OK).build();
     }
 
     @POST
@@ -46,20 +64,26 @@ public class StudentService {
     @ApiOperation(value = "Add student", authorizations = {@Authorization(value = "jwt")}, notes = "JWT authorization needed")
     @ApiResponses({@ApiResponse(code=201, message="Created"), @ApiResponse(code=409, message="Conflict")})
     public Response addStudent(@NotNull @ApiParam(value = "Student to be added", required = true) Student student) {
-        dao.addStudent(student);
-        if(Students.getInstance().addStudent(student)){
+        try{
+            Faculty faculty = facultyDao.getFacultyByName(student.getFaculty().getName());
+            studentDao.addStudent(student, faculty);
             return Response.ok().status(Response.Status.CREATED).build();
+        } catch(Exception ex) {
+            return Response.notModified().status(Response.Status.CONFLICT).build();
         }
-        return Response.notModified().status(Response.Status.CONFLICT).build();
     }
 
 
     @GET
     @Path("/{albumNumber}")
     @ApiOperation(value = "Get specified student")
-    @ApiResponses({@ApiResponse(code=200, message="Success")})
+    @ApiResponses({@ApiResponse(code=200, message="Success"), @ApiResponse(code = 404, message = "Not Found")})
     public Response getStudent(@NotNull @ApiParam(value = "Album number to search student by", required = true) @PathParam("albumNumber") int albumNumber) {
-        return Response.ok(dao.getStudent(albumNumber)).status(Response.Status.OK).build();
+        try{
+            return Response.ok(studentDao.getStudentByAlbumNumber(albumNumber)).status(Response.Status.OK).build();
+        } catch(Exception ex) {
+            return Response.notModified().status(Response.Status.NOT_FOUND).build();
+        }
     }
 
     @DELETE
@@ -68,7 +92,7 @@ public class StudentService {
     @ApiOperation(value = "Delete student", authorizations = {@Authorization(value = "jwt")}, notes = "JWT authorization needed")
     @ApiResponses({@ApiResponse(code = 204, message = "No Content"), @ApiResponse(code = 404, message = "Not Found")})
     public Response deleteStudent(@NotNull @ApiParam(value = "Album number to search student by", required = true) @PathParam("albumNumber") int albumNumber) {
-        if(Students.getInstance().deleteStudent(albumNumber)){
+        if(studentDao.deleteStudent(albumNumber)){
             return Response.ok().status(Response.Status.NO_CONTENT).build();
         } else{
             return Response.notModified().status(Response.Status.NOT_FOUND).build();
@@ -82,10 +106,23 @@ public class StudentService {
     @ApiResponses({@ApiResponse(code = 204, message = "No Content"), @ApiResponse(code = 404, message = "Not Found")})
     public Response updateStudent(@NotNull @ApiParam(value = "Album number to search student by", required = true) @PathParam("albumNumber") int albumNumber,
                                   @NotNull @ApiParam(value = "Student to add", required = true) Student student) {
-        if(Students.getInstance().updateStudent(albumNumber, student)){
-            return Response.ok().status(Response.Status.NO_CONTENT).build();
+        if(student.getFaculty() != null) {
+            try{
+                Student studentToChange = studentDao.getStudentByAlbumNumber(albumNumber);
+                Faculty faculty = facultyDao.getFacultyByName(student.getFaculty().getName());
+                studentDao.updateStudent(student,studentToChange, albumNumber, faculty);
+                return Response.ok().status(Response.Status.NO_CONTENT).build();
+            } catch(Exception ex){
+                return Response.notModified().status(Response.Status.NOT_FOUND).build();
+            }
         }
-        return Response.notModified().status(Response.Status.NOT_FOUND).build();
+        try{
+            Student studentToChange = studentDao.getStudentByAlbumNumber(albumNumber);
+            studentDao.updateStudent(student,studentToChange, albumNumber, null);
+            return Response.ok().status(Response.Status.NO_CONTENT).build();
+        } catch(Exception ex){
+            return Response.notModified().status(Response.Status.NOT_FOUND).build();
+        }
     }
 
     @POST
@@ -94,11 +131,15 @@ public class StudentService {
     @ApiOperation(value = "Add course to student", authorizations = {@Authorization(value = "jwt")}, notes = "JWT authorization needed")
     @ApiResponses({@ApiResponse(code=201, message="Created"), @ApiResponse(code = 404, message = "Not Found")})
     public Response addCourseToStudent(@NotNull @ApiParam(value = "Album number to search student by", required = true) @PathParam("albumNumber") int albumNumber,
-                                       @NotNull @ApiParam(value = "Course to add", required = true) Course course) {
-        if(Students.getInstance().addCourseToStudent(albumNumber,course)) {
+                                       @NotNull @ApiParam(value = "Course to add", required = true) Course courseToAdd) {
+        try{
+            Course course = courseDao.getCourseByName(courseToAdd.getName());
+            Student student = studentDao.getStudentByAlbumNumber(albumNumber);
+            studentDao.addCourseToStudent(student,course);
             return Response.ok().status(Response.Status.CREATED).build();
+        } catch(Exception ex) {
+            return Response.notModified().status(Response.Status.NOT_FOUND).build();
         }
-        return Response.notModified().status(Response.Status.NOT_FOUND).build();
     }
 
     @GET
@@ -106,7 +147,11 @@ public class StudentService {
     @ApiOperation(value = "Get student courses")
     @ApiResponses({@ApiResponse(code=200, message="Success")})
     public Response getStudentCourses(@NotNull @ApiParam(value = "Album number to search student by", required = true) @PathParam("albumNumber") int albumNumber) {
-        return Response.ok(Students.getInstance().getStudent(albumNumber).getCourses()).status(Response.Status.OK).build();
+        try{
+            return Response.ok(studentDao.getStudentByAlbumNumber(albumNumber).getCourses()).status(Response.Status.OK).build();
+        } catch(Exception ex) {
+            return Response.notModified().status(Response.Status.NOT_FOUND).build();
+        }
     }
 
     @GET
@@ -129,24 +174,28 @@ public class StudentService {
     @ApiOperation(value = "Get student as proto buffer")
     @ApiResponses({@ApiResponse(code=200, message="Success")})
     public Response getStudentProto(@NotNull @ApiParam(value = "Album number to search student by", required = true) @PathParam("albumNumber") int albumNumber) {
-
-        Student st = Students.getInstance().getStudent(albumNumber);
-        StudentOuterClass.Student.Builder studentBilder = StudentOuterClass.Student.newBuilder();
-        studentBilder.setAlbumNumber(st.getAlbumNumber())
-                .setField(st.getFaculty())
-                .setName(st.getName())
-                .setSurname(st.getSurname());
-        for (Course c : st.getCourses()) {
-            StudentOuterClass.Course course = StudentOuterClass.Course.newBuilder()
-                    .setName(c.getName())
-                    .setHours(c.getHours())
-                    .setEctsPoints(c.getEctsPoints())
-                    .setProfesorName(c.getProfesorName())
-                    .setProfesorSurname(c.getProfesorSurname())
-                    .build();
-            studentBilder.addCourses(course);
+        try{
+            Student st = studentDao.getStudentByAlbumNumber(albumNumber);
+            StudentOuterClass.Student.Builder studentBilder = StudentOuterClass.Student.newBuilder();
+            studentBilder.setAlbumNumber(st.getAlbumNumber())
+                    .setField(st.getFaculty().getName())
+                    .setName(st.getName())
+                    .setSurname(st.getSurname());
+            for (Course c : st.getCourses()) {
+                StudentOuterClass.Course course = StudentOuterClass.Course.newBuilder()
+                        .setName(c.getName())
+                        .setHours(c.getHours())
+                        .setEctsPoints(c.getEctsPoints())
+                        .setProfesorName(c.getProfessor().getName())
+                        .setProfesorSurname(c.getProfessor().getSurname())
+                        .build();
+                studentBilder.addCourses(course);
+            }
+            StudentOuterClass.Student student = studentBilder.build();
+            return Response.ok(student.toByteArray(), "application/protobuf").build();
+        } catch(Exception ex) {
+            return Response.notModified().status(Response.Status.NOT_FOUND).build();
         }
-        StudentOuterClass.Student student = studentBilder.build();
-        return Response.ok(student.toByteArray(), "application/protobuf").build();
+
     }
 }

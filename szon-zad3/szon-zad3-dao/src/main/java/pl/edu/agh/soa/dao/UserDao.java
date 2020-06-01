@@ -22,7 +22,7 @@ public class UserDao {
         CriteriaBuilder criteriaBuilder = entityManager.getCriteriaBuilder();
         CriteriaQuery<UserEntity> criteriaQuery = criteriaBuilder.createQuery(UserEntity.class);
         Root<UserEntity> userEntityRoot = criteriaQuery.from(UserEntity.class);
-        criteriaQuery.select(userEntityRoot).where(criteriaBuilder.equal(userEntityRoot.get("login"), user.getLogin()));
+        criteriaQuery.select(userEntityRoot).where(criteriaBuilder.and(criteriaBuilder.equal(userEntityRoot.get("login"), user.getLogin()), criteriaBuilder.equal(userEntityRoot.get("password"), user.getPassword())));
         return UserMapper.mapEntityToUser(entityManager.createQuery(criteriaQuery).getSingleResult());
     }
 }

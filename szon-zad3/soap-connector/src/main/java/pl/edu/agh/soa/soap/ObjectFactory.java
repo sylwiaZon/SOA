@@ -30,6 +30,7 @@ public class ObjectFactory {
     private final static QName _AddStudentResponse_QNAME = new QName("http://soap.soa.agh.edu.pl/", "addStudentResponse");
     private final static QName _DeleteStudent_QNAME = new QName("http://soap.soa.agh.edu.pl/", "deleteStudent");
     private final static QName _DeleteStudentResponse_QNAME = new QName("http://soap.soa.agh.edu.pl/", "deleteStudentResponse");
+    private final static QName _Faculty_QNAME = new QName("http://soap.soa.agh.edu.pl/", "faculty");
     private final static QName _GetAllStudents_QNAME = new QName("http://soap.soa.agh.edu.pl/", "getAllStudents");
     private final static QName _GetAllStudentsResponse_QNAME = new QName("http://soap.soa.agh.edu.pl/", "getAllStudentsResponse");
     private final static QName _GetIcon_QNAME = new QName("http://soap.soa.agh.edu.pl/", "getIcon");
@@ -103,6 +104,14 @@ public class ObjectFactory {
      */
     public DeleteStudentResponse createDeleteStudentResponse() {
         return new DeleteStudentResponse();
+    }
+
+    /**
+     * Create an instance of {@link Faculty }
+     * 
+     */
+    public Faculty createFaculty() {
+        return new Faculty();
     }
 
     /**
@@ -194,6 +203,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link Professor }
+     * 
+     */
+    public Professor createProfessor() {
+        return new Professor();
+    }
+
+    /**
      * Create an instance of {@link Student.Courses }
      * 
      */
@@ -277,6 +294,19 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://soap.soa.agh.edu.pl/", name = "deleteStudentResponse")
     public JAXBElement<DeleteStudentResponse> createDeleteStudentResponse(DeleteStudentResponse value) {
         return new JAXBElement<DeleteStudentResponse>(_DeleteStudentResponse_QNAME, DeleteStudentResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Faculty }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Faculty }{@code >}
+     */
+    @XmlElementDecl(namespace = "http://soap.soa.agh.edu.pl/", name = "faculty")
+    public JAXBElement<Faculty> createFaculty(Faculty value) {
+        return new JAXBElement<Faculty>(_Faculty_QNAME, Faculty.class, null, value);
     }
 
     /**

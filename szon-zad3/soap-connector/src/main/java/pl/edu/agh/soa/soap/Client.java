@@ -16,20 +16,20 @@ public class Client {
         setCredentials((BindingProvider) serviceI);
 
         Course maths = new Course();
-        maths.setProfesorName("Piotr");
-        maths.setProfesorSurname("Janiak");
+        maths.getProfessor().setName("Piotr");
+        maths.getProfessor().setSurname("Janiak");
         maths.setEctsPoints(5);
         maths.setHours(30);
 
         Course english = new Course();
-        english.setProfesorName("Anna");
-        english.setProfesorSurname("Polak");
+        english.getProfessor().setName("Anna");
+        english.getProfessor().setSurname("Polak");
         english.setEctsPoints(2);
         english.setHours(30);
 
         Course spanish = new Course();
-        spanish.setProfesorName("Mercedes");
-        spanish.setProfesorSurname("Cruz");
+        spanish.getProfessor().setName("Mercedes");
+        spanish.getProfessor().setSurname("Cruz");
         spanish.setEctsPoints(2);
         spanish.setHours(30);
 
@@ -37,21 +37,25 @@ public class Client {
         studentA.setName("Jan");
         studentA.setSurname("Kowalski");
         studentA.setAlbumNumber(297456);
-        studentA.setFaculty("ComputerScience");
+        Faculty facultyA = new Faculty();
+        facultyA.setName("ComputerScience");
+        studentA.setFaculty(facultyA);
 
         Student studentB  = new Student();
         studentB.setName("Janina");
         studentB.setSurname("Nowak");
         studentB.setAlbumNumber(297459);
-        studentB.setFaculty("Telecommunication");
+        Faculty facultyB = new Faculty();
+        facultyB.setName("Telecommunication");
+        studentB.setFaculty(facultyB);
 
-        serviceI.addStudent(studentA.getName(),studentA.getSurname(),studentA.getFaculty(),studentA.getAlbumNumber());
-        serviceI.addStudent(studentB.getName(),studentB.getSurname(),studentB.getFaculty(),studentB.getAlbumNumber());
+        serviceI.addStudent(studentA.getName(),studentA.getSurname(),studentA.getFaculty().getName(),studentA.getAlbumNumber());
+        serviceI.addStudent(studentB.getName(),studentB.getSurname(),studentB.getFaculty().getName(),studentB.getAlbumNumber());
 
-        serviceI.addCourseToStudent(studentA.getAlbumNumber(),"Maths", maths.getProfesorName(), maths.getProfesorSurname(), maths.getEctsPoints(), maths.getHours());
-        serviceI.addCourseToStudent(studentB.getAlbumNumber(),"Maths", maths.getProfesorName(), maths.getProfesorSurname(), maths.getEctsPoints(), maths.getHours());
-        serviceI.addCourseToStudent(studentA.getAlbumNumber(),"Spanish", spanish.getProfesorName(), spanish.getProfesorSurname(), spanish.getEctsPoints(), spanish.getHours());
-        serviceI.addCourseToStudent(studentB.getAlbumNumber(),"English", english.getProfesorName(), english.getProfesorSurname(), english.getEctsPoints(), english.getHours());
+        serviceI.addCourseToStudent(studentA.getAlbumNumber(),"Maths", maths.getProfessor().getName(), maths.getProfessor().getSurname(), maths.getEctsPoints(), maths.getHours());
+        serviceI.addCourseToStudent(studentB.getAlbumNumber(),"Maths", maths.getProfessor().getName(), maths.getProfessor().getSurname(), maths.getEctsPoints(), maths.getHours());
+        serviceI.addCourseToStudent(studentA.getAlbumNumber(),"Spanish", spanish.getProfessor().getName(), spanish.getProfessor().getSurname(), spanish.getEctsPoints(), spanish.getHours());
+        serviceI.addCourseToStudent(studentB.getAlbumNumber(),"English", english.getProfessor().getName(), english.getProfessor().getSurname(), english.getEctsPoints(), english.getHours());
 
         System.out.println("All students: ");
         printStudentsList(serviceI.getAllStudents());
@@ -98,8 +102,8 @@ public class Client {
 
     private static void printCourses(Student.Courses courses){
         for(Course course: courses.getCourse()){
-            System.out.println("Profesor Name: " + course.getProfesorName());
-            System.out.println("Profesor Surname: " + course.getProfesorSurname());
+            System.out.println("Profesor Name: " + course.getProfessor().getName());
+            System.out.println("Profesor Surname: " + course.getProfessor().getSurname());
             System.out.println("Ects point: " + course.getEctsPoints());
             System.out.println("Hours: " + course.getHours());
         }

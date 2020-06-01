@@ -915,7 +915,7 @@
       <DataType>bigint(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="226" parent="205" name="faculty_id">
+    <column id="226" parent="205" name="professor_id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
@@ -935,10 +935,10 @@
     </column>
     <key id="229" parent="205" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>faculty_id</ColNames>
+      <ColNames>professor_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="230" parent="206" name="ProfessorEntity_faculty_id">
+    <column id="230" parent="206" name="ProfessorEntity_professor_id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
@@ -955,8 +955,8 @@
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="233" parent="206" name="FKr0qi2mnagup28r6whdcv77t0a">
-      <ColNames>ProfessorEntity_faculty_id</ColNames>
+    <index id="233" parent="206" name="FK1t15cn0w47ruof78akdsfwx56">
+      <ColNames>ProfessorEntity_professor_id</ColNames>
       <Type>btree</Type>
     </index>
     <key id="234" parent="206" name="UK_43wmcikbefwf7jbqcdk280agx">

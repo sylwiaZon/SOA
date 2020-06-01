@@ -7,32 +7,99 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c896cf92-7615-47f4-a094-48b3ec771977" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../szon-zad2/.idea/libraries/Maven__pl_edu_agh_soa_lab_szon_zad2_web_war_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/src/main/java/pl/edu/agh/soa/models/Student.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/.idea/artifacts/rest_api_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/.idea/artifacts/rest_api_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/.idea/artifacts/szon_zad2_ear_ear_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/.idea/artifacts/szon_zad2_ear_ear_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/rest-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/rest-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/rest-api/rest-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/rest-api/rest-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/rest-api/src/main/java/pl/edu/agh/soa/rest/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/rest-api/src/main/java/pl/edu/agh/soa/rest/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/rest-api/target/classes/pl/edu/agh/soa/rest/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/rest-api/target/classes/pl/edu/agh/soa/rest/StudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/rest-api/target/rest-api.war" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/rest-api/target/rest-api.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/rest-api/target/rest-api/WEB-INF/classes/pl/edu/agh/soa/rest/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/rest-api/target/rest-api/WEB-INF/classes/pl/edu/agh/soa/rest/StudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/rest-api/target/rest-api/WEB-INF/lib/szon-zad2-model-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/rest-api/target/rest-api/WEB-INF/lib/szon-zad2-model-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/soap-api/target/szon-zad2-ejb.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/soap-api/target/szon-zad2-ejb.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/soap-connector/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/soap-connector/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/soap-connector/target/soap-connector.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/soap-connector/target/soap-connector.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-ear/szon-zad2-ear.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-ear/szon-zad2-ear.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-ear/target/szon-zad2-ear.ear" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-ear/target/szon-zad2-ear.ear" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-ear/target/szon-zad2-ear/lib/pl.edu.agh.soa.lab-szon-zad2-model-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-ear/target/szon-zad2-ear/lib/pl.edu.agh.soa.lab-szon-zad2-model-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-ear/target/szon-zad2-ear/pl.edu.agh.soa.lab-szon-zad2-ejb-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-ear/target/szon-zad2-ear/pl.edu.agh.soa.lab-szon-zad2-ejb-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/szon-zad2-model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/szon-zad2-model.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/target/szon-zad2-model-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad2/szon-zad2-model/target/szon-zad2-model-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soap-api/target/classes/pl/edu/agh/soa/soap/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/soap-api/target/classes/pl/edu/agh/soa/soap/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soap-api/target/szon-zad1-ejb.jar" beforeDir="false" afterPath="$PROJECT_DIR$/soap-api/target/szon-zad1-ejb.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soap-connector/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/soap-connector/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soap-connector/target/soap-connector.jar" beforeDir="false" afterPath="$PROJECT_DIR$/soap-connector/target/soap-connector.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/szon-zad1-ear/target/szon-zad1-ear.ear" beforeDir="false" afterPath="$PROJECT_DIR$/szon-zad1-ear/target/szon-zad1-ear.ear" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/szon-zad1-ear/target/szon-zad1-ear/pl.edu.agh.soa.lab-szon-zad1-ejb-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/szon-zad1-ear/target/szon-zad1-ear/pl.edu.agh.soa.lab-szon-zad1-ejb-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/szon-zad1-ear/target/szon-zad1-ear/pl.edu.agh.soa.lab-szon-zad1-web-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/szon-zad1-ear/target/szon-zad1-ear/pl.edu.agh.soa.lab-szon-zad1-web-1.0.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/szon-zad1-web/target/szon-zad1-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/szon-zad1-web/target/szon-zad1-web.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/.idea/dataSources/ee6c8478-5ec3-4f54-a07b-deb2ff5ccfeb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/.idea/dataSources/ee6c8478-5ec3-4f54-a07b-deb2ff5ccfeb.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-api/src/main/java/pl/edu/agh/soa/rest/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/rest-api/src/main/java/pl/edu/agh/soa/rest/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-api/src/main/java/pl/edu/agh/soa/rest/Students.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-api/src/main/java/pl/edu/agh/soa/rest/authentication/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/rest-api/src/main/java/pl/edu/agh/soa/rest/authentication/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-api/src/main/java/pl/edu/agh/soa/rest/authentication/Users.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-api/target/classes/pl/edu/agh/soa/rest/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/rest-api/target/classes/pl/edu/agh/soa/rest/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-api/target/classes/pl/edu/agh/soa/rest/Students.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-api/target/classes/pl/edu/agh/soa/rest/authentication/AuthenticationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/rest-api/target/classes/pl/edu/agh/soa/rest/authentication/AuthenticationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-api/target/classes/pl/edu/agh/soa/rest/authentication/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/rest-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/rest-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-api/target/rest-api.war" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/rest-api/target/rest-api.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-api/target/rest-api/WEB-INF/classes/pl/edu/agh/soa/rest/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/rest-api/target/rest-api/WEB-INF/classes/pl/edu/agh/soa/rest/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-api/target/rest-api/WEB-INF/classes/pl/edu/agh/soa/rest/Students.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-api/target/rest-api/WEB-INF/classes/pl/edu/agh/soa/rest/authentication/AuthenticationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/rest-api/target/rest-api/WEB-INF/classes/pl/edu/agh/soa/rest/authentication/AuthenticationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-api/target/rest-api/WEB-INF/classes/pl/edu/agh/soa/rest/authentication/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-api/target/rest-api/WEB-INF/lib/szon-zad3-dao-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/rest-api/target/rest-api/WEB-INF/lib/szon-zad3-dao-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-api/target/rest-api/WEB-INF/lib/szon-zad3-jpa-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/rest-api/target/rest-api/WEB-INF/lib/szon-zad3-jpa-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-api/target/rest-api/WEB-INF/lib/szon-zad3-model-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/rest-api/target/rest-api/WEB-INF/lib/szon-zad3-model-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-connector/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/rest-connector/src/main/java/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-connector/src/main/java/ClientUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/rest-connector/src/main/java/ClientUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-connector/target/classes/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/rest-connector/target/classes/Client$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-connector/target/classes/Client$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/rest-connector/target/classes/Client$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-connector/target/classes/Client$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/rest-connector/target/classes/Client$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-connector/target/classes/Client$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/rest-connector/target/classes/Client$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-connector/target/classes/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/rest-connector/target/classes/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-connector/target/classes/ClientUsage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/rest-connector/target/classes/ClientUsage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/rest-connector/target/rest-connector.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/rest-connector/target/rest-connector.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/soap-api/target/classes/pl/edu/agh/soa/soap/Students.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/soap-api/target/classes/pl/edu/agh/soa/soap/Students.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/soap-api/target/szon-zad3-ejb.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/soap-api/target/szon-zad3-ejb.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/soap-connector/src/main/java/pl/edu/agh/soa/soap/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/soap-connector/src/main/java/pl/edu/agh/soa/soap/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/soap-connector/src/main/java/pl/edu/agh/soa/soap/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/soap-connector/src/main/java/pl/edu/agh/soa/soap/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/soap-connector/src/main/java/pl/edu/agh/soa/soap/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/soap-connector/src/main/java/pl/edu/agh/soa/soap/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/soap-connector/src/main/java/pl/edu/agh/soa/soap/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/soap-connector/src/main/java/pl/edu/agh/soa/soap/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/soap-connector/target/classes/pl/edu/agh/soa/soap/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/soap-connector/target/classes/pl/edu/agh/soa/soap/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/soap-connector/target/classes/pl/edu/agh/soa/soap/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/soap-connector/target/classes/pl/edu/agh/soa/soap/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/soap-connector/target/classes/pl/edu/agh/soa/soap/ObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/soap-connector/target/classes/pl/edu/agh/soa/soap/ObjectFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/soap-connector/target/classes/pl/edu/agh/soa/soap/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/soap-connector/target/classes/pl/edu/agh/soa/soap/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/soap-connector/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/soap-connector/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/soap-connector/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/soap-connector/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/soap-connector/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/soap-connector/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/soap-connector/target/soap-connector.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/soap-connector/target/soap-connector.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/src/main/java/pl/edu/agh/soa/dao/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/src/main/java/pl/edu/agh/soa/dao/CourseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/src/main/java/pl/edu/agh/soa/dao/FacultyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/src/main/java/pl/edu/agh/soa/dao/FacultyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/src/main/java/pl/edu/agh/soa/dao/ProfessorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/src/main/java/pl/edu/agh/soa/dao/ProfessorMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/src/main/java/pl/edu/agh/soa/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/src/main/java/pl/edu/agh/soa/dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/src/main/java/pl/edu/agh/soa/dao/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/src/main/java/pl/edu/agh/soa/dao/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/src/main/java/pl/edu/agh/soa/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/src/main/java/pl/edu/agh/soa/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/target/classes/pl/edu/agh/soa/dao/CourseMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/target/classes/pl/edu/agh/soa/dao/CourseMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/target/classes/pl/edu/agh/soa/dao/FacultyMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/target/classes/pl/edu/agh/soa/dao/FacultyMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/target/classes/pl/edu/agh/soa/dao/ProfessorMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/target/classes/pl/edu/agh/soa/dao/ProfessorMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/target/classes/pl/edu/agh/soa/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/target/classes/pl/edu/agh/soa/dao/StudentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/target/classes/pl/edu/agh/soa/dao/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/target/classes/pl/edu/agh/soa/dao/StudentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/target/classes/pl/edu/agh/soa/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/target/classes/pl/edu/agh/soa/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/target/szon-zad3-dao-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-dao/target/szon-zad3-dao-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-ear/target/szon-zad3-ear.ear" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-ear/target/szon-zad3-ear.ear" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-ear/target/szon-zad3-ear/lib/pl.edu.agh.soa.lab-szon-zad3-model-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-ear/target/szon-zad3-ear/lib/pl.edu.agh.soa.lab-szon-zad3-model-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-ear/target/szon-zad3-ear/pl.edu.agh.soa.lab-rest-api-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-ear/target/szon-zad3-ear/pl.edu.agh.soa.lab-rest-api-1.0.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-ear/target/szon-zad3-ear/pl.edu.agh.soa.lab-szon-zad3-ejb-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-ear/target/szon-zad3-ear/pl.edu.agh.soa.lab-szon-zad3-ejb-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-jpa/src/main/java/pl/edu/agh/soa/jpa/CourseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-jpa/src/main/java/pl/edu/agh/soa/jpa/CourseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-jpa/src/main/java/pl/edu/agh/soa/jpa/ProfessorEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-jpa/src/main/java/pl/edu/agh/soa/jpa/ProfessorEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-jpa/src/main/java/pl/edu/agh/soa/jpa/StudentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-jpa/src/main/java/pl/edu/agh/soa/jpa/StudentEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-jpa/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-jpa/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-jpa/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-jpa/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-jpa/target/classes/pl/edu/agh/soa/jpa/CourseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-jpa/target/classes/pl/edu/agh/soa/jpa/CourseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-jpa/target/classes/pl/edu/agh/soa/jpa/ProfessorEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-jpa/target/classes/pl/edu/agh/soa/jpa/ProfessorEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-jpa/target/classes/pl/edu/agh/soa/jpa/StudentEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-jpa/target/classes/pl/edu/agh/soa/jpa/StudentEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-jpa/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-jpa/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-jpa/target/szon-zad3-jpa-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-jpa/target/szon-zad3-jpa-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-model/src/main/java/pl/edu/agh/soa/models/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-model/src/main/java/pl/edu/agh/soa/models/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-model/src/main/java/pl/edu/agh/soa/models/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-model/src/main/java/pl/edu/agh/soa/models/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-model/src/main/java/pl/edu/agh/soa/models/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-model/src/main/java/pl/edu/agh/soa/models/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-model/target/classes/pl/edu/agh/soa/models/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-model/target/classes/pl/edu/agh/soa/models/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-model/target/classes/pl/edu/agh/soa/models/Professor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-model/target/classes/pl/edu/agh/soa/models/Professor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-model/target/classes/pl/edu/agh/soa/models/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-model/target/classes/pl/edu/agh/soa/models/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-model/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-model/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../szon-zad3/szon-zad3-model/target/szon-zad3-model-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../szon-zad3/szon-zad3-model/target/szon-zad3-model-1.0.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/lab1-ear/target/" />
     <ignored path="$PROJECT_DIR$/lab1-ejb/target/" />
@@ -59,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/soap-api/src/main/resources/users.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="17">
+              <caret line="1" column="8" selection-start-line="1" selection-end-line="1" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -71,8 +138,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soap-connector/src/main/java/pl/edu/agh/soa/soap/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
+            <state relative-caret-position="452">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,20 +147,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/szon-zad1-ejb/target/lab1-ejb/META-INF/persistence.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/StudentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="27" column="45" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="45" />
+            <state relative-caret-position="535">
+              <caret line="102" column="142" selection-start-line="102" selection-start-column="142" selection-end-line="102" selection-end-column="142" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/szon-zad1-ejb/target/lab1-ejb/META-INF/persistence.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="296">
+              <caret line="27" column="45" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -179,7 +249,6 @@
         <option value="$PROJECT_DIR$/soap-api/src/main/resources/users.properties" />
         <option value="$PROJECT_DIR$/soap-api/src/main/resources/roles.properties" />
         <option value="$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/StudentServiceInterface.java" />
-        <option value="$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/StudentService.java" />
         <option value="$PROJECT_DIR$/soap-connector/src/main/java/pl/edu/agh/soa/soap/Client.java" />
         <option value="$PROJECT_DIR$/lab1-ear/src/main/application/META-INF/lab1-ds.xml" />
         <option value="$PROJECT_DIR$/soap-api/src/main/resources/META-INF/persistence.xml" />
@@ -190,6 +259,7 @@
         <option value="$PROJECT_DIR$/soap-api/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/soap-connector/pom.xml" />
+        <option value="$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/StudentService.java" />
       </list>
     </option>
   </component>
@@ -212,10 +282,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="1358" />
+    <option name="y" value="-95" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -225,14 +295,90 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="szon-zad1" type="b2602c69:ProjectViewProjectNode" />
               <item name="szon-zad1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szon-zad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szon-zad1" type="462c0819:PsiDirectoryNode" />
+              <item name="soap-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szon-zad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szon-zad1" type="462c0819:PsiDirectoryNode" />
+              <item name="soap-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szon-zad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szon-zad1" type="462c0819:PsiDirectoryNode" />
+              <item name="soap-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szon-zad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szon-zad1" type="462c0819:PsiDirectoryNode" />
+              <item name="soap-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szon-zad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szon-zad1" type="462c0819:PsiDirectoryNode" />
+              <item name="soap-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pl.edu.agh.soa.soap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szon-zad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szon-zad1" type="462c0819:PsiDirectoryNode" />
+              <item name="soap-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szon-zad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szon-zad1" type="462c0819:PsiDirectoryNode" />
+              <item name="soap-connector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szon-zad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szon-zad1" type="462c0819:PsiDirectoryNode" />
+              <item name="soap-connector" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szon-zad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szon-zad1" type="462c0819:PsiDirectoryNode" />
+              <item name="soap-connector" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szon-zad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szon-zad1" type="462c0819:PsiDirectoryNode" />
+              <item name="soap-connector" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szon-zad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szon-zad1" type="462c0819:PsiDirectoryNode" />
+              <item name="soap-connector" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="soap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="szon-zad1" type="b2602c69:ProjectViewProjectNode" />
@@ -249,13 +395,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587382741273" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../szon-zad2" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591047381743" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -280,7 +428,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.lab1 [clean,package]">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.edu.agh.soa.soap.Client" />
       <module name="soap-connector" />
@@ -421,17 +569,18 @@
       <workItem from="1587651414323" duration="76000" />
       <workItem from="1589478443521" duration="5809000" />
       <workItem from="1589570400798" duration="587000" />
+      <workItem from="1591046014926" duration="1345000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59589000" />
+    <option name="totallyTimeSpent" value="60934000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="1358" y="-95" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19440243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1641791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -444,7 +593,7 @@
       <window_info id="Web" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46644846" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2881907" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -452,7 +601,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.5139116" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33802816" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Remote Spark Job in Cluster" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.3289689" />
@@ -675,40 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="102" column="20" selection-start-line="102" selection-end-line="103" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/soap-api/src/main/resources/roles.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/soap-api/src/main/resources/users.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/soap-connector/src/main/java/pl/edu/agh/soa/soap/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -749,8 +864,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/szon-zad1-ejb/target/lab1-ejb/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
+        <state relative-caret-position="296">
           <caret line="27" column="45" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soap-api/src/main/java/pl.edu.agh.soa.soap/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="102" column="142" selection-start-line="102" selection-start-column="142" selection-end-line="102" selection-end-column="142" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soap-connector/src/main/java/pl/edu/agh/soa/soap/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soap-api/src/main/resources/roles.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soap-api/src/main/resources/users.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" selection-start-line="1" selection-end-line="1" selection-end-column="8" />
         </state>
       </provider>
     </entry>

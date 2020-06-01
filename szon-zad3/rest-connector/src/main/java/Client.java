@@ -3,9 +3,7 @@ import org.jboss.resteasy.client.jaxrs.ResteasyClient;
 import org.jboss.resteasy.client.jaxrs.ResteasyClientBuilder;
 import org.jboss.resteasy.client.jaxrs.ResteasyWebTarget;
 import pl.edu.agh.soa.model.StudentOuterClass;
-import pl.edu.agh.soa.models.Course;
-import pl.edu.agh.soa.models.Student;
-import pl.edu.agh.soa.models.User;
+import pl.edu.agh.soa.models.*;
 
 import javax.imageio.ImageIO;
 import javax.ws.rs.client.Entity;
@@ -60,6 +58,24 @@ public class Client {
         ResteasyWebTarget target = client.target(API_URL+"/students");
         Response response = target.request(MediaType.APPLICATION_JSON).header("Authorization", token).post(Entity.entity(student, MediaType.APPLICATION_JSON ));
         System.out.println("addStudent response: " + response.getStatus() + " " + response.getStatusInfo());
+    }
+
+    public void addFaculty(Faculty faculty, String token){
+        ResteasyWebTarget target = client.target(API_URL+"/faculties");
+        Response response = target.request(MediaType.APPLICATION_JSON).header("Authorization", token).post(Entity.entity(faculty, MediaType.APPLICATION_JSON ));
+        System.out.println("addFaculty response: " + response.getStatus() + " " + response.getStatusInfo());
+    }
+
+    public void addProfessor(Professor professor, String token){
+        ResteasyWebTarget target = client.target(API_URL+"/professors");
+        Response response = target.request(MediaType.APPLICATION_JSON).header("Authorization", token).post(Entity.entity(professor, MediaType.APPLICATION_JSON ));
+        System.out.println("addProfessor response: " + response.getStatus() + " " + response.getStatusInfo());
+    }
+
+    public void addCourse(Course course, String token){
+        ResteasyWebTarget target = client.target(API_URL+"/courses");
+        Response response = target.request(MediaType.APPLICATION_JSON).header("Authorization", token).post(Entity.entity(course, MediaType.APPLICATION_JSON ));
+        System.out.println("addCourse response: " + response.getStatus() + " " + response.getStatusInfo());
     }
 
     public Student getStudent(int albumNumber){

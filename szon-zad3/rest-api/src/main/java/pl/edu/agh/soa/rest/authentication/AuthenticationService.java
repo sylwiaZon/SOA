@@ -37,7 +37,7 @@ public class AuthenticationService {
 
     @POST
     @Path("/login")
-    @ApiOperation(value = "Login")
+    @ApiOperation(value = "Login", notes = "log in user")
     @ApiResponses({@ApiResponse(code=200, message="Success"), @ApiResponse(code=401, message="Unauthorized")})
     public Response loginUser(@ApiParam(value = "User to login", required=true) User user) {
         try{
@@ -50,7 +50,7 @@ public class AuthenticationService {
 
     @POST
     @Path("/register")
-    @ApiOperation(value = "Register")
+    @ApiOperation(value = "Register", notes = "regster user")
     @ApiResponses({@ApiResponse(code=201, message="Created"), @ApiResponse(code=409, message="Conflict")})
     public Response registerUser(@ApiParam(value = "User to register", required=true) User user) {
         try{
@@ -59,14 +59,6 @@ public class AuthenticationService {
         } catch (Exception ex){
             return Response.status(Response.Status.CONFLICT).build();
         }
-    }
-
-    private boolean authenticate(User user) throws SecurityException {
-        String usr = Users.getInstance().getUsers().get(user.getLogin());
-        if(usr != null && usr.equals(user.getPassword())){
-            return true;
-        }
-        return false;
     }
 
     private String issueToken(String login) {

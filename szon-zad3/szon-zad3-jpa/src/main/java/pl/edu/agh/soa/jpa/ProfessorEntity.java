@@ -8,7 +8,7 @@ import java.util.List;
 @Table(name="professor")
 public class ProfessorEntity {
     @Id
-    @Column(name="faculty_id")
+    @Column(name="professor_id")
     @GeneratedValue
     private int id;
 

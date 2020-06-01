@@ -3,37 +3,42 @@ package pl.edu.agh.soa.models;
 import org.hibernate.validator.constraints.NotEmpty;
 
 public class Course {
+    private Integer id;
     @NotEmpty
     private String name;
-    @NotEmpty
-    private String profesorName;
-    @NotEmpty
-    private String profesorSurname;
-    @NotEmpty
+    private Professor professor;
     private int ectsPoints;
-    @NotEmpty
     private int hours;
 
     public Course(){}
 
     public Course(String name, String profesorName, String profesorSurname, int ectsPoints, int hours) {
         this.name = name;
-        this.profesorName = profesorName;
-        this.profesorSurname = profesorSurname;
+        this.professor = new Professor();
+        this.professor.setName(profesorName);
+        this.professor.setSurname(profesorSurname);
         this.ectsPoints = ectsPoints;
         this.hours = hours;
     }
 
+    public Course(String name, Professor professor, int ectsPoints, int hours) {
+        this.name = name;
+        this.professor = new Professor();
+        this.professor = professor;
+        this.ectsPoints = ectsPoints;
+        this.hours = hours;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
     public String getName() {
         return name;
-    }
-
-    public String getProfesorName() {
-        return profesorName;
-    }
-
-    public String getProfesorSurname() {
-        return profesorSurname;
     }
 
     public int getEctsPoints() {
@@ -42,14 +47,6 @@ public class Course {
 
     public int getHours() {
         return hours;
-    }
-
-    public void setProfesorName(String profesorName) {
-        this.profesorName = profesorName;
-    }
-
-    public void setProfesorSurname(String profesorSurname) {
-        this.profesorSurname = profesorSurname;
     }
 
     public void setEctsPoints(int ectsPoints) {
@@ -64,6 +61,13 @@ public class Course {
         this.name = name;
     }
 
+    public Professor getProfessor() {
+        return professor;
+    }
+
+    public void setProfessor(Professor professor) {
+        this.professor = professor;
+    }
 
     @Override
     public boolean equals(Object o) {
@@ -73,12 +77,12 @@ public class Course {
         return ectsPoints == course.ectsPoints &&
                 hours == course.hours &&
                 name.equals(course.name) &&
-                profesorName.equals(course.profesorName) &&
-                profesorSurname.equals(course.profesorSurname);
+                professor.getName().equals(course.professor.getName()) &&
+                professor.getSurname().equals(course.professor.getSurname());
     }
 
     @Override
     public String toString() {
-        return "Name: " + name + ", Profesor name: " + profesorName + ", Profesor Surname: " + profesorSurname + ", ECTS points: " + ectsPoints + ", hours: " + hours;
+        return "Course: Name: " + name + ", Profesor name: " + professor.getName() + ", Profesor Surname: " + professor.getSurname() + ", ECTS points: " + ectsPoints + ", hours: " + hours;
     }
 }

@@ -1,7 +1,10 @@
 pl\edu\agh\soa\dao\CourseMapper.class
+pl\edu\agh\soa\dao\FacultyDao.class
+pl\edu\agh\soa\dao\ProfessorDao.class
 pl\edu\agh\soa\dao\UserMapper.class
 pl\edu\agh\soa\dao\StudentDao.class
 pl\edu\agh\soa\dao\ProfessorMapper.class
+pl\edu\agh\soa\dao\CourseDao.class
 pl\edu\agh\soa\dao\FacultyMapper.class
 pl\edu\agh\soa\dao\StudentMapper.class
 pl\edu\agh\soa\dao\UserDao.class

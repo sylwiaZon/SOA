@@ -100,7 +100,7 @@ public class StudentService implements StudentServiceInterface{
     @WebMethod(operationName = "getApplicationIcon")
     @WebResult(name = "icon")
     public byte[] getIcon(){
-        File file = new File("C:/Users/Sylwia/Desktop/Studia/SOA/zad1/lab1/soap-api/src/main/java/pl.edu.agh.soa.soap/applicationIcon.png");
+        File file = new File("C:/Users/Sylwia/Desktop/Studia/SOA/zad1/szon-zad3/rest-api/src/main/java/pl/edu/agh/soa/rest/applicationIcon.png");
         byte[] encodedFile = null;
         try {
             FileInputStream fileInputStream = new FileInputStream(file);

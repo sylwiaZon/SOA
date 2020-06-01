@@ -21,11 +21,23 @@ public class StudentEntity {
     @JoinColumn(name="faculty_id")
     private FacultyEntity facultyEntity;
 
-    @ManyToMany
+    @ManyToMany(cascade = {
+            CascadeType.PERSIST,
+            CascadeType.MERGE
+    })
     @JoinTable(name="student_courses",
             joinColumns = @JoinColumn(name="album_number"),
             inverseJoinColumns = @JoinColumn(name = "course_id"))
     private List<CourseEntity> courses;
+
+    public StudentEntity() {
+        courses = new ArrayList<>();
+    }
+
+    public void addCourse(CourseEntity course){
+        courses.add(course);
+       // course.addStudent(this);
+    }
 
     public int getAlbumNumber() {
         return albumNumber;

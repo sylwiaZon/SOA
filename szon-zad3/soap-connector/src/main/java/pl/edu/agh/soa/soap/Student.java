@@ -21,7 +21,7 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="name" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="surname" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="albumNumber" type="{http://www.w3.org/2001/XMLSchema}int"/&gt;
- *         &lt;element name="faculty" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="faculty" type="{http://soap.soa.agh.edu.pl/}faculty" minOccurs="0"/&gt;
  *         &lt;element name="courses" minOccurs="0"&gt;
  *           &lt;complexType&gt;
  *             &lt;complexContent&gt;
@@ -54,7 +54,7 @@ public class Student {
     protected String name;
     protected String surname;
     protected int albumNumber;
-    protected String faculty;
+    protected Faculty faculty;
     protected Student.Courses courses;
 
     /**
@@ -126,10 +126,10 @@ public class Student {
      * 
      * @return
      *     possible object is
-     *     {@link String }
+     *     {@link Faculty }
      *     
      */
-    public String getFaculty() {
+    public Faculty getFaculty() {
         return faculty;
     }
 
@@ -138,10 +138,10 @@ public class Student {
      * 
      * @param value
      *     allowed object is
-     *     {@link String }
+     *     {@link Faculty }
      *     
      */
-    public void setFaculty(String value) {
+    public void setFaculty(Faculty value) {
         this.faculty = value;
     }
 

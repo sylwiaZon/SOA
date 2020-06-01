@@ -15,18 +15,26 @@ public class Student {
     @NotEmpty
     private int albumNumber;
     @NotEmpty
-    private String faculty;
+    @XmlElement(name="faculty")
+    private Faculty faculty;
     @XmlElementWrapper(name="courses")
     @XmlElement(name="course")
     private ArrayList<Course> courses;
 
     public Student (){};
 
-    public Student(String name, String surname, int albumNumber, String faculty) {
+    public Student(String name, String surname, int albumNumber, Faculty faculty) {
         this.name = name;
         this.surname = surname;
         this.albumNumber = albumNumber;
         this.faculty = faculty;
+    }
+
+    public Student(String name, String surname, int albumNumber, String faculty) {
+        this.name = name;
+        this.surname = surname;
+        this.albumNumber = albumNumber;
+        this.faculty = new Faculty(faculty);
     }
 
     public Student(String surname) {
@@ -41,7 +49,7 @@ public class Student {
         return surname;
     }
 
-    public String getFaculty() {
+    public Faculty getFaculty() {
         return faculty;
     }
 
@@ -61,8 +69,12 @@ public class Student {
         this.surname = surname;
     }
 
-    public void setFaculty(String faculty) {
+    public void setFaculty(Faculty faculty) {
         this.faculty = faculty;
+    }
+
+    public void setFaculty(String faculty) {
+        this.faculty = new Faculty(faculty);
     }
 
     public void addCourse(Course course){
@@ -96,9 +108,9 @@ public class Student {
 
     @Override
     public String toString() {
-        String resp = "Name: " + name + ", Surname: " + surname + ", Album Number: " + albumNumber + ", Faculty " + faculty ;
+        String resp = "Student: Name: " + name + ", Surname: " + surname + ", Album Number: " + albumNumber + ", Faculty: " + faculty ;
         if(courses != null) {
-            resp = "Name: " + name + ", Surname: " + surname + ", Album Number: " + albumNumber + ", Faculty " + faculty + ", Courses: " + courses.toString();
+            resp = "Student: Name: " + name + ", Surname: " + surname + ", Album Number: " + albumNumber + ", Faculty: " + faculty + ", Courses: " + courses.toString();
         }
         return resp;
     }

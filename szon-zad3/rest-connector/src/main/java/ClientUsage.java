@@ -1,6 +1,4 @@
-import pl.edu.agh.soa.models.Course;
-import pl.edu.agh.soa.models.Student;
-import pl.edu.agh.soa.models.User;
+import pl.edu.agh.soa.models.*;
 
 public class ClientUsage {
     public static void main(String[] args) {
@@ -12,6 +10,28 @@ public class ClientUsage {
         System.out.println();
         System.out.println("Login registered user to get token");
         String token = "Bearer " + client.login(loggedUser.getLogin(), loggedUser.getPassword()).trim();
+        System.out.println();
+
+        Faculty facultyA = new Faculty("Computer Science");
+        Faculty facultyB = new Faculty("Physics");
+
+        System.out.println("Add faculty: ");
+        client.addFaculty(facultyA, token);
+        System.out.println("Add faculty: ");
+        client.addFaculty(facultyB, token);
+        System.out.println("Add already existing faculty: ");
+        client.addFaculty(facultyB, token);
+        System.out.println();
+
+        Professor professorA = new Professor("Piotr", "Janiak");
+        Professor professorB = new Professor("Katarzyna", "Cieplak");
+
+        System.out.println("Add professor: ");
+        client.addProfessor(professorA, token);
+        System.out.println("Add professor: ");
+        client.addProfessor(professorB, token);
+        System.out.println("Add already existing professor: ");
+        client.addProfessor(professorA, token);
         System.out.println();
 
         Student studentA = new Student("Jan", "Kowalski", 29876, "Computer Science");
@@ -51,9 +71,20 @@ public class ClientUsage {
 
         System.out.println();
 
-        Course course = new Course("Maths", "Anna", "Grzyb", 5, 30);
+        Course courseA = new Course("Maths", professorA, 5, 30);
+        Course courseB = new Course("English", professorB, 2, 15);
+
+        System.out.println("Add course: ");
+        client.addCourse(courseA, token);
+        System.out.println("Add course: ");
+        client.addCourse(courseB, token);
+        System.out.println("Add already existing course: ");
+        client.addCourse(courseA, token);
+        System.out.println();
+
         System.out.println("Add courses to student: ");
-        client.addCoursesToStudent(29876, course, token);
+        client.addCoursesToStudent(29876, courseA, token);
+        client.addCoursesToStudent(29876, courseB, token);
         System.out.println("Get courses of specified student:");
         System.out.println(client.getCourses(29876).toString());
         client.getIcon();

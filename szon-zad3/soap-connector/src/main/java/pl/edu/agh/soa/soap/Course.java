@@ -18,9 +18,9 @@ import javax.xml.bind.annotation.XmlType;
  *       &lt;sequence&gt;
  *         &lt;element name="ectsPoints" type="{http://www.w3.org/2001/XMLSchema}int"/&gt;
  *         &lt;element name="hours" type="{http://www.w3.org/2001/XMLSchema}int"/&gt;
+ *         &lt;element name="id" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/&gt;
  *         &lt;element name="name" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
- *         &lt;element name="profesorName" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
- *         &lt;element name="profesorSurname" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="professor" type="{http://soap.soa.agh.edu.pl/}professor" minOccurs="0"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -33,17 +33,17 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType(name = "course", propOrder = {
     "ectsPoints",
     "hours",
+    "id",
     "name",
-    "profesorName",
-    "profesorSurname"
+    "professor"
 })
 public class Course {
 
     protected int ectsPoints;
     protected int hours;
+    protected Integer id;
     protected String name;
-    protected String profesorName;
-    protected String profesorSurname;
+    protected Professor professor;
 
     /**
      * Gets the value of the ectsPoints property.
@@ -78,6 +78,30 @@ public class Course {
     }
 
     /**
+     * Gets the value of the id property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
+     */
+    public Integer getId() {
+        return id;
+    }
+
+    /**
+     * Sets the value of the id property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
+     */
+    public void setId(Integer value) {
+        this.id = value;
+    }
+
+    /**
      * Gets the value of the name property.
      * 
      * @return
@@ -102,51 +126,27 @@ public class Course {
     }
 
     /**
-     * Gets the value of the profesorName property.
+     * Gets the value of the professor property.
      * 
      * @return
      *     possible object is
-     *     {@link String }
+     *     {@link Professor }
      *     
      */
-    public String getProfesorName() {
-        return profesorName;
+    public Professor getProfessor() {
+        return professor;
     }
 
     /**
-     * Sets the value of the profesorName property.
+     * Sets the value of the professor property.
      * 
      * @param value
      *     allowed object is
-     *     {@link String }
+     *     {@link Professor }
      *     
      */
-    public void setProfesorName(String value) {
-        this.profesorName = value;
-    }
-
-    /**
-     * Gets the value of the profesorSurname property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getProfesorSurname() {
-        return profesorSurname;
-    }
-
-    /**
-     * Sets the value of the profesorSurname property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setProfesorSurname(String value) {
-        this.profesorSurname = value;
+    public void setProfessor(Professor value) {
+        this.professor = value;
     }
 
 }

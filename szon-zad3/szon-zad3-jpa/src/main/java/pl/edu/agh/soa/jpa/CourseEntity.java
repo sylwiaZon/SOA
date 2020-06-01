@@ -32,6 +32,14 @@ public class CourseEntity {
             inverseJoinColumns = @JoinColumn(name = "album_number"))
     private List<StudentEntity> studentEntities;
 
+    public CourseEntity() {
+        studentEntities = new ArrayList<>();
+    }
+
+    public void addStudent(StudentEntity studentEntity){
+        studentEntities.add(studentEntity);
+    }
+
     public int getId() {
         return id;
     }

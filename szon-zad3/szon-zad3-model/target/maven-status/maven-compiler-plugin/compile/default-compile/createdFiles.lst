@@ -10,5 +10,6 @@ pl\edu\agh\soa\models\Student.class
 pl\edu\agh\soa\model\StudentOuterClass$1.class
 pl\edu\agh\soa\model\StudentOuterClass$Student$1.class
 pl\edu\agh\soa\models\Course.class
+pl\edu\agh\soa\models\Faculty.class
 pl\edu\agh\soa\model\StudentOuterClass$Course$Builder.class
 pl\edu\agh\soa\models\Professor.class
